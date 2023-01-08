@@ -15,10 +15,10 @@ AIO Version 1.72
 + Download ac_caio.patch and place it in your AzerothCore installation folder.
 + Run git bash and type "git apply ac_caio.patch"
 + Build/Install AzerothCore
-+ [Install(Add) (C)AIO scripts](#api-reference)
++ Optional: [Install(Add) (C)AIO scripts](#api-reference)
 + Run SQL files from `AzerothCore_Installation_Dir/data/sql/custom/db_world/caio_world.sql` to insert commands, and strings 
 + Copy `AIO_Client` folder from [AIO](https://github.com/Rochet2/AIO) repository to `WoW_Installation_Dir/Interface/AddOns`
-+ Copy your client side addons to `AzerothCore_Installation_Dir/lua_client_scripts`
++ Optional: Copy your client side addons to `AzerothCore_Installation_Dir/lua_client_scripts`
 
 ## Todo
 
@@ -31,6 +31,44 @@ AIO Version 1.72
 + Implement Compression
 
 ## API reference
+
+### A simple example script
+
+![alt text](https://cdn.discordapp.com/attachments/353919176714354698/1061368655520202885/image.png "Example")
+
+```cpp
+#include "ScriptMgr.h"
+#include "World.h"
+
+class ExampleAIOScript : public AIOScript
+{
+public:
+    ExampleAIOScript()
+        : AIOScript("AIOExample")
+    {
+        using namespace std::placeholders;
+        AddHandler("Print", std::bind(&ExampleAIOScript::HandlePrint, this, _1, _2));
+    }
+
+    void HandlePrint(Player* sender, const LuaVal& args)
+    {
+        const LuaVal& ButtonName  = args[4];
+        const LuaVal& InputValue  = args[5];
+        const LuaVal& SliderValue = args[6];
+
+        printf("ButtonFunctionName: %s\nInputValue: %s\nSliderValue: %f\n",
+            ButtonName.str().c_str(),
+            InputValue.str().c_str(),
+            SliderValue.num());
+    }
+};
+
+void AddSC_ExampleAIO()
+{
+    new ExampleAIOScript;
+}
+```
+
 
 ### Creating a CAIO script
 
@@ -175,19 +213,19 @@ public:
 
 	//Creates a AIO message and adds one block
 	AIOMsg(const LuaVal &scriptKey, const LuaVal &handlerKey,
-		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
-		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
+		const LuaVal &a1 = LuaVal::nil, const LuaVal &a2 = LuaVal::nil, const LuaVal &a3 = LuaVal::nil,
+		const LuaVal &a4 = LuaVal::nil, const LuaVal &a5 = LuaVal::nil, const LuaVal &a6 = LuaVal::nil);
 
 	//Adds another block
 	//Another block will call another handler in one message
 	AIOMsg &Add(cconst LuaVal &scriptKey, const LuaVal &handlerKey,
-		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
-		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
+		const LuaVal &a1 = LuaVal::nil, const LuaVal &a2 = LuaVal::nil, const LuaVal &a3 = LuaVal::nil,
+		const LuaVal &a4 = LuaVal::nil, const LuaVal &a5 = LuaVal::nil, const LuaVal &a6 = LuaVal::nil);
 
 	//Appends the last block
 	//You can add additional arguments to the last block
-	AIOMsg &AppendLast(const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
-		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
+	AIOMsg &AppendLast(const LuaVal &a1 = LuaVal::nil, const LuaVal &a2 = LuaVal::nil, const LuaVal &a3 = LuaVal::nil,
+		const LuaVal &a4 = LuaVal::nil, const LuaVal &a5 = LuaVal::nil, const LuaVal &a6 = LuaVal::nil);
 
 	//Returns smallfolk dump of the AIO message
 	std::string dumps() const;
@@ -210,8 +248,8 @@ public:
 	// To trigger multiple handlers in one message or to send more
 	// arguments use Player::AIOMessage
 	void AIOHandle(const LuaVal &scriptKey, const LuaVal &handlerKey,
-		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
-		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
+		const LuaVal &a1 = LuaVal::nil, const LuaVal &a2 = LuaVal::nil, const LuaVal &a3 = LuaVal::nil,
+		const LuaVal &a4 = LuaVal::nil, const LuaVal &a5 = LuaVal::nil, const LuaVal &a6 = LuaVal::nil);
 
 	// AIO can only understand smallfolk LuaVal::dumps() format
 	// Handler functions are called by creating a table as below
