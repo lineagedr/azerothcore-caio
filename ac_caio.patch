@@ -1,0 +1,4344 @@
+diff --git a/CAIO LICENSE.txt b/CAIO LICENSE.txt
+new file mode 100644
+index 000000000..20d40b6bc
+--- /dev/null
++++ b/CAIO LICENSE.txt	
+@@ -0,0 +1,674 @@
++                    GNU GENERAL PUBLIC LICENSE
++                       Version 3, 29 June 2007
++
++ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
++ Everyone is permitted to copy and distribute verbatim copies
++ of this license document, but changing it is not allowed.
++
++                            Preamble
++
++  The GNU General Public License is a free, copyleft license for
++software and other kinds of works.
++
++  The licenses for most software and other practical works are designed
++to take away your freedom to share and change the works.  By contrast,
++the GNU General Public License is intended to guarantee your freedom to
++share and change all versions of a program--to make sure it remains free
++software for all its users.  We, the Free Software Foundation, use the
++GNU General Public License for most of our software; it applies also to
++any other work released this way by its authors.  You can apply it to
++your programs, too.
++
++  When we speak of free software, we are referring to freedom, not
++price.  Our General Public Licenses are designed to make sure that you
++have the freedom to distribute copies of free software (and charge for
++them if you wish), that you receive source code or can get it if you
++want it, that you can change the software or use pieces of it in new
++free programs, and that you know you can do these things.
++
++  To protect your rights, we need to prevent others from denying you
++these rights or asking you to surrender the rights.  Therefore, you have
++certain responsibilities if you distribute copies of the software, or if
++you modify it: responsibilities to respect the freedom of others.
++
++  For example, if you distribute copies of such a program, whether
++gratis or for a fee, you must pass on to the recipients the same
++freedoms that you received.  You must make sure that they, too, receive
++or can get the source code.  And you must show them these terms so they
++know their rights.
++
++  Developers that use the GNU GPL protect your rights with two steps:
++(1) assert copyright on the software, and (2) offer you this License
++giving you legal permission to copy, distribute and/or modify it.
++
++  For the developers' and authors' protection, the GPL clearly explains
++that there is no warranty for this free software.  For both users' and
++authors' sake, the GPL requires that modified versions be marked as
++changed, so that their problems will not be attributed erroneously to
++authors of previous versions.
++
++  Some devices are designed to deny users access to install or run
++modified versions of the software inside them, although the manufacturer
++can do so.  This is fundamentally incompatible with the aim of
++protecting users' freedom to change the software.  The systematic
++pattern of such abuse occurs in the area of products for individuals to
++use, which is precisely where it is most unacceptable.  Therefore, we
++have designed this version of the GPL to prohibit the practice for those
++products.  If such problems arise substantially in other domains, we
++stand ready to extend this provision to those domains in future versions
++of the GPL, as needed to protect the freedom of users.
++
++  Finally, every program is threatened constantly by software patents.
++States should not allow patents to restrict development and use of
++software on general-purpose computers, but in those that do, we wish to
++avoid the special danger that patents applied to a free program could
++make it effectively proprietary.  To prevent this, the GPL assures that
++patents cannot be used to render the program non-free.
++
++  The precise terms and conditions for copying, distribution and
++modification follow.
++
++                       TERMS AND CONDITIONS
++
++  0. Definitions.
++
++  "This License" refers to version 3 of the GNU General Public License.
++
++  "Copyright" also means copyright-like laws that apply to other kinds of
++works, such as semiconductor masks.
++
++  "The Program" refers to any copyrightable work licensed under this
++License.  Each licensee is addressed as "you".  "Licensees" and
++"recipients" may be individuals or organizations.
++
++  To "modify" a work means to copy from or adapt all or part of the work
++in a fashion requiring copyright permission, other than the making of an
++exact copy.  The resulting work is called a "modified version" of the
++earlier work or a work "based on" the earlier work.
++
++  A "covered work" means either the unmodified Program or a work based
++on the Program.
++
++  To "propagate" a work means to do anything with it that, without
++permission, would make you directly or secondarily liable for
++infringement under applicable copyright law, except executing it on a
++computer or modifying a private copy.  Propagation includes copying,
++distribution (with or without modification), making available to the
++public, and in some countries other activities as well.
++
++  To "convey" a work means any kind of propagation that enables other
++parties to make or receive copies.  Mere interaction with a user through
++a computer network, with no transfer of a copy, is not conveying.
++
++  An interactive user interface displays "Appropriate Legal Notices"
++to the extent that it includes a convenient and prominently visible
++feature that (1) displays an appropriate copyright notice, and (2)
++tells the user that there is no warranty for the work (except to the
++extent that warranties are provided), that licensees may convey the
++work under this License, and how to view a copy of this License.  If
++the interface presents a list of user commands or options, such as a
++menu, a prominent item in the list meets this criterion.
++
++  1. Source Code.
++
++  The "source code" for a work means the preferred form of the work
++for making modifications to it.  "Object code" means any non-source
++form of a work.
++
++  A "Standard Interface" means an interface that either is an official
++standard defined by a recognized standards body, or, in the case of
++interfaces specified for a particular programming language, one that
++is widely used among developers working in that language.
++
++  The "System Libraries" of an executable work include anything, other
++than the work as a whole, that (a) is included in the normal form of
++packaging a Major Component, but which is not part of that Major
++Component, and (b) serves only to enable use of the work with that
++Major Component, or to implement a Standard Interface for which an
++implementation is available to the public in source code form.  A
++"Major Component", in this context, means a major essential component
++(kernel, window system, and so on) of the specific operating system
++(if any) on which the executable work runs, or a compiler used to
++produce the work, or an object code interpreter used to run it.
++
++  The "Corresponding Source" for a work in object code form means all
++the source code needed to generate, install, and (for an executable
++work) run the object code and to modify the work, including scripts to
++control those activities.  However, it does not include the work's
++System Libraries, or general-purpose tools or generally available free
++programs which are used unmodified in performing those activities but
++which are not part of the work.  For example, Corresponding Source
++includes interface definition files associated with source files for
++the work, and the source code for shared libraries and dynamically
++linked subprograms that the work is specifically designed to require,
++such as by intimate data communication or control flow between those
++subprograms and other parts of the work.
++
++  The Corresponding Source need not include anything that users
++can regenerate automatically from other parts of the Corresponding
++Source.
++
++  The Corresponding Source for a work in source code form is that
++same work.
++
++  2. Basic Permissions.
++
++  All rights granted under this License are granted for the term of
++copyright on the Program, and are irrevocable provided the stated
++conditions are met.  This License explicitly affirms your unlimited
++permission to run the unmodified Program.  The output from running a
++covered work is covered by this License only if the output, given its
++content, constitutes a covered work.  This License acknowledges your
++rights of fair use or other equivalent, as provided by copyright law.
++
++  You may make, run and propagate covered works that you do not
++convey, without conditions so long as your license otherwise remains
++in force.  You may convey covered works to others for the sole purpose
++of having them make modifications exclusively for you, or provide you
++with facilities for running those works, provided that you comply with
++the terms of this License in conveying all material for which you do
++not control copyright.  Those thus making or running the covered works
++for you must do so exclusively on your behalf, under your direction
++and control, on terms that prohibit them from making any copies of
++your copyrighted material outside their relationship with you.
++
++  Conveying under any other circumstances is permitted solely under
++the conditions stated below.  Sublicensing is not allowed; section 10
++makes it unnecessary.
++
++  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
++
++  No covered work shall be deemed part of an effective technological
++measure under any applicable law fulfilling obligations under article
++11 of the WIPO copyright treaty adopted on 20 December 1996, or
++similar laws prohibiting or restricting circumvention of such
++measures.
++
++  When you convey a covered work, you waive any legal power to forbid
++circumvention of technological measures to the extent such circumvention
++is effected by exercising rights under this License with respect to
++the covered work, and you disclaim any intention to limit operation or
++modification of the work as a means of enforcing, against the work's
++users, your or third parties' legal rights to forbid circumvention of
++technological measures.
++
++  4. Conveying Verbatim Copies.
++
++  You may convey verbatim copies of the Program's source code as you
++receive it, in any medium, provided that you conspicuously and
++appropriately publish on each copy an appropriate copyright notice;
++keep intact all notices stating that this License and any
++non-permissive terms added in accord with section 7 apply to the code;
++keep intact all notices of the absence of any warranty; and give all
++recipients a copy of this License along with the Program.
++
++  You may charge any price or no price for each copy that you convey,
++and you may offer support or warranty protection for a fee.
++
++  5. Conveying Modified Source Versions.
++
++  You may convey a work based on the Program, or the modifications to
++produce it from the Program, in the form of source code under the
++terms of section 4, provided that you also meet all of these conditions:
++
++    a) The work must carry prominent notices stating that you modified
++    it, and giving a relevant date.
++
++    b) The work must carry prominent notices stating that it is
++    released under this License and any conditions added under section
++    7.  This requirement modifies the requirement in section 4 to
++    "keep intact all notices".
++
++    c) You must license the entire work, as a whole, under this
++    License to anyone who comes into possession of a copy.  This
++    License will therefore apply, along with any applicable section 7
++    additional terms, to the whole of the work, and all its parts,
++    regardless of how they are packaged.  This License gives no
++    permission to license the work in any other way, but it does not
++    invalidate such permission if you have separately received it.
++
++    d) If the work has interactive user interfaces, each must display
++    Appropriate Legal Notices; however, if the Program has interactive
++    interfaces that do not display Appropriate Legal Notices, your
++    work need not make them do so.
++
++  A compilation of a covered work with other separate and independent
++works, which are not by their nature extensions of the covered work,
++and which are not combined with it such as to form a larger program,
++in or on a volume of a storage or distribution medium, is called an
++"aggregate" if the compilation and its resulting copyright are not
++used to limit the access or legal rights of the compilation's users
++beyond what the individual works permit.  Inclusion of a covered work
++in an aggregate does not cause this License to apply to the other
++parts of the aggregate.
++
++  6. Conveying Non-Source Forms.
++
++  You may convey a covered work in object code form under the terms
++of sections 4 and 5, provided that you also convey the
++machine-readable Corresponding Source under the terms of this License,
++in one of these ways:
++
++    a) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by the
++    Corresponding Source fixed on a durable physical medium
++    customarily used for software interchange.
++
++    b) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by a
++    written offer, valid for at least three years and valid for as
++    long as you offer spare parts or customer support for that product
++    model, to give anyone who possesses the object code either (1) a
++    copy of the Corresponding Source for all the software in the
++    product that is covered by this License, on a durable physical
++    medium customarily used for software interchange, for a price no
++    more than your reasonable cost of physically performing this
++    conveying of source, or (2) access to copy the
++    Corresponding Source from a network server at no charge.
++
++    c) Convey individual copies of the object code with a copy of the
++    written offer to provide the Corresponding Source.  This
++    alternative is allowed only occasionally and noncommercially, and
++    only if you received the object code with such an offer, in accord
++    with subsection 6b.
++
++    d) Convey the object code by offering access from a designated
++    place (gratis or for a charge), and offer equivalent access to the
++    Corresponding Source in the same way through the same place at no
++    further charge.  You need not require recipients to copy the
++    Corresponding Source along with the object code.  If the place to
++    copy the object code is a network server, the Corresponding Source
++    may be on a different server (operated by you or a third party)
++    that supports equivalent copying facilities, provided you maintain
++    clear directions next to the object code saying where to find the
++    Corresponding Source.  Regardless of what server hosts the
++    Corresponding Source, you remain obligated to ensure that it is
++    available for as long as needed to satisfy these requirements.
++
++    e) Convey the object code using peer-to-peer transmission, provided
++    you inform other peers where the object code and Corresponding
++    Source of the work are being offered to the general public at no
++    charge under subsection 6d.
++
++  A separable portion of the object code, whose source code is excluded
++from the Corresponding Source as a System Library, need not be
++included in conveying the object code work.
++
++  A "User Product" is either (1) a "consumer product", which means any
++tangible personal property which is normally used for personal, family,
++or household purposes, or (2) anything designed or sold for incorporation
++into a dwelling.  In determining whether a product is a consumer product,
++doubtful cases shall be resolved in favor of coverage.  For a particular
++product received by a particular user, "normally used" refers to a
++typical or common use of that class of product, regardless of the status
++of the particular user or of the way in which the particular user
++actually uses, or expects or is expected to use, the product.  A product
++is a consumer product regardless of whether the product has substantial
++commercial, industrial or non-consumer uses, unless such uses represent
++the only significant mode of use of the product.
++
++  "Installation Information" for a User Product means any methods,
++procedures, authorization keys, or other information required to install
++and execute modified versions of a covered work in that User Product from
++a modified version of its Corresponding Source.  The information must
++suffice to ensure that the continued functioning of the modified object
++code is in no case prevented or interfered with solely because
++modification has been made.
++
++  If you convey an object code work under this section in, or with, or
++specifically for use in, a User Product, and the conveying occurs as
++part of a transaction in which the right of possession and use of the
++User Product is transferred to the recipient in perpetuity or for a
++fixed term (regardless of how the transaction is characterized), the
++Corresponding Source conveyed under this section must be accompanied
++by the Installation Information.  But this requirement does not apply
++if neither you nor any third party retains the ability to install
++modified object code on the User Product (for example, the work has
++been installed in ROM).
++
++  The requirement to provide Installation Information does not include a
++requirement to continue to provide support service, warranty, or updates
++for a work that has been modified or installed by the recipient, or for
++the User Product in which it has been modified or installed.  Access to a
++network may be denied when the modification itself materially and
++adversely affects the operation of the network or violates the rules and
++protocols for communication across the network.
++
++  Corresponding Source conveyed, and Installation Information provided,
++in accord with this section must be in a format that is publicly
++documented (and with an implementation available to the public in
++source code form), and must require no special password or key for
++unpacking, reading or copying.
++
++  7. Additional Terms.
++
++  "Additional permissions" are terms that supplement the terms of this
++License by making exceptions from one or more of its conditions.
++Additional permissions that are applicable to the entire Program shall
++be treated as though they were included in this License, to the extent
++that they are valid under applicable law.  If additional permissions
++apply only to part of the Program, that part may be used separately
++under those permissions, but the entire Program remains governed by
++this License without regard to the additional permissions.
++
++  When you convey a copy of a covered work, you may at your option
++remove any additional permissions from that copy, or from any part of
++it.  (Additional permissions may be written to require their own
++removal in certain cases when you modify the work.)  You may place
++additional permissions on material, added by you to a covered work,
++for which you have or can give appropriate copyright permission.
++
++  Notwithstanding any other provision of this License, for material you
++add to a covered work, you may (if authorized by the copyright holders of
++that material) supplement the terms of this License with terms:
++
++    a) Disclaiming warranty or limiting liability differently from the
++    terms of sections 15 and 16 of this License; or
++
++    b) Requiring preservation of specified reasonable legal notices or
++    author attributions in that material or in the Appropriate Legal
++    Notices displayed by works containing it; or
++
++    c) Prohibiting misrepresentation of the origin of that material, or
++    requiring that modified versions of such material be marked in
++    reasonable ways as different from the original version; or
++
++    d) Limiting the use for publicity purposes of names of licensors or
++    authors of the material; or
++
++    e) Declining to grant rights under trademark law for use of some
++    trade names, trademarks, or service marks; or
++
++    f) Requiring indemnification of licensors and authors of that
++    material by anyone who conveys the material (or modified versions of
++    it) with contractual assumptions of liability to the recipient, for
++    any liability that these contractual assumptions directly impose on
++    those licensors and authors.
++
++  All other non-permissive additional terms are considered "further
++restrictions" within the meaning of section 10.  If the Program as you
++received it, or any part of it, contains a notice stating that it is
++governed by this License along with a term that is a further
++restriction, you may remove that term.  If a license document contains
++a further restriction but permits relicensing or conveying under this
++License, you may add to a covered work material governed by the terms
++of that license document, provided that the further restriction does
++not survive such relicensing or conveying.
++
++  If you add terms to a covered work in accord with this section, you
++must place, in the relevant source files, a statement of the
++additional terms that apply to those files, or a notice indicating
++where to find the applicable terms.
++
++  Additional terms, permissive or non-permissive, may be stated in the
++form of a separately written license, or stated as exceptions;
++the above requirements apply either way.
++
++  8. Termination.
++
++  You may not propagate or modify a covered work except as expressly
++provided under this License.  Any attempt otherwise to propagate or
++modify it is void, and will automatically terminate your rights under
++this License (including any patent licenses granted under the third
++paragraph of section 11).
++
++  However, if you cease all violation of this License, then your
++license from a particular copyright holder is reinstated (a)
++provisionally, unless and until the copyright holder explicitly and
++finally terminates your license, and (b) permanently, if the copyright
++holder fails to notify you of the violation by some reasonable means
++prior to 60 days after the cessation.
++
++  Moreover, your license from a particular copyright holder is
++reinstated permanently if the copyright holder notifies you of the
++violation by some reasonable means, this is the first time you have
++received notice of violation of this License (for any work) from that
++copyright holder, and you cure the violation prior to 30 days after
++your receipt of the notice.
++
++  Termination of your rights under this section does not terminate the
++licenses of parties who have received copies or rights from you under
++this License.  If your rights have been terminated and not permanently
++reinstated, you do not qualify to receive new licenses for the same
++material under section 10.
++
++  9. Acceptance Not Required for Having Copies.
++
++  You are not required to accept this License in order to receive or
++run a copy of the Program.  Ancillary propagation of a covered work
++occurring solely as a consequence of using peer-to-peer transmission
++to receive a copy likewise does not require acceptance.  However,
++nothing other than this License grants you permission to propagate or
++modify any covered work.  These actions infringe copyright if you do
++not accept this License.  Therefore, by modifying or propagating a
++covered work, you indicate your acceptance of this License to do so.
++
++  10. Automatic Licensing of Downstream Recipients.
++
++  Each time you convey a covered work, the recipient automatically
++receives a license from the original licensors, to run, modify and
++propagate that work, subject to this License.  You are not responsible
++for enforcing compliance by third parties with this License.
++
++  An "entity transaction" is a transaction transferring control of an
++organization, or substantially all assets of one, or subdividing an
++organization, or merging organizations.  If propagation of a covered
++work results from an entity transaction, each party to that
++transaction who receives a copy of the work also receives whatever
++licenses to the work the party's predecessor in interest had or could
++give under the previous paragraph, plus a right to possession of the
++Corresponding Source of the work from the predecessor in interest, if
++the predecessor has it or can get it with reasonable efforts.
++
++  You may not impose any further restrictions on the exercise of the
++rights granted or affirmed under this License.  For example, you may
++not impose a license fee, royalty, or other charge for exercise of
++rights granted under this License, and you may not initiate litigation
++(including a cross-claim or counterclaim in a lawsuit) alleging that
++any patent claim is infringed by making, using, selling, offering for
++sale, or importing the Program or any portion of it.
++
++  11. Patents.
++
++  A "contributor" is a copyright holder who authorizes use under this
++License of the Program or a work on which the Program is based.  The
++work thus licensed is called the contributor's "contributor version".
++
++  A contributor's "essential patent claims" are all patent claims
++owned or controlled by the contributor, whether already acquired or
++hereafter acquired, that would be infringed by some manner, permitted
++by this License, of making, using, or selling its contributor version,
++but do not include claims that would be infringed only as a
++consequence of further modification of the contributor version.  For
++purposes of this definition, "control" includes the right to grant
++patent sublicenses in a manner consistent with the requirements of
++this License.
++
++  Each contributor grants you a non-exclusive, worldwide, royalty-free
++patent license under the contributor's essential patent claims, to
++make, use, sell, offer for sale, import and otherwise run, modify and
++propagate the contents of its contributor version.
++
++  In the following three paragraphs, a "patent license" is any express
++agreement or commitment, however denominated, not to enforce a patent
++(such as an express permission to practice a patent or covenant not to
++sue for patent infringement).  To "grant" such a patent license to a
++party means to make such an agreement or commitment not to enforce a
++patent against the party.
++
++  If you convey a covered work, knowingly relying on a patent license,
++and the Corresponding Source of the work is not available for anyone
++to copy, free of charge and under the terms of this License, through a
++publicly available network server or other readily accessible means,
++then you must either (1) cause the Corresponding Source to be so
++available, or (2) arrange to deprive yourself of the benefit of the
++patent license for this particular work, or (3) arrange, in a manner
++consistent with the requirements of this License, to extend the patent
++license to downstream recipients.  "Knowingly relying" means you have
++actual knowledge that, but for the patent license, your conveying the
++covered work in a country, or your recipient's use of the covered work
++in a country, would infringe one or more identifiable patents in that
++country that you have reason to believe are valid.
++
++  If, pursuant to or in connection with a single transaction or
++arrangement, you convey, or propagate by procuring conveyance of, a
++covered work, and grant a patent license to some of the parties
++receiving the covered work authorizing them to use, propagate, modify
++or convey a specific copy of the covered work, then the patent license
++you grant is automatically extended to all recipients of the covered
++work and works based on it.
++
++  A patent license is "discriminatory" if it does not include within
++the scope of its coverage, prohibits the exercise of, or is
++conditioned on the non-exercise of one or more of the rights that are
++specifically granted under this License.  You may not convey a covered
++work if you are a party to an arrangement with a third party that is
++in the business of distributing software, under which you make payment
++to the third party based on the extent of your activity of conveying
++the work, and under which the third party grants, to any of the
++parties who would receive the covered work from you, a discriminatory
++patent license (a) in connection with copies of the covered work
++conveyed by you (or copies made from those copies), or (b) primarily
++for and in connection with specific products or compilations that
++contain the covered work, unless you entered into that arrangement,
++or that patent license was granted, prior to 28 March 2007.
++
++  Nothing in this License shall be construed as excluding or limiting
++any implied license or other defenses to infringement that may
++otherwise be available to you under applicable patent law.
++
++  12. No Surrender of Others' Freedom.
++
++  If conditions are imposed on you (whether by court order, agreement or
++otherwise) that contradict the conditions of this License, they do not
++excuse you from the conditions of this License.  If you cannot convey a
++covered work so as to satisfy simultaneously your obligations under this
++License and any other pertinent obligations, then as a consequence you may
++not convey it at all.  For example, if you agree to terms that obligate you
++to collect a royalty for further conveying from those to whom you convey
++the Program, the only way you could satisfy both those terms and this
++License would be to refrain entirely from conveying the Program.
++
++  13. Use with the GNU Affero General Public License.
++
++  Notwithstanding any other provision of this License, you have
++permission to link or combine any covered work with a work licensed
++under version 3 of the GNU Affero General Public License into a single
++combined work, and to convey the resulting work.  The terms of this
++License will continue to apply to the part which is the covered work,
++but the special requirements of the GNU Affero General Public License,
++section 13, concerning interaction through a network will apply to the
++combination as such.
++
++  14. Revised Versions of this License.
++
++  The Free Software Foundation may publish revised and/or new versions of
++the GNU General Public License from time to time.  Such new versions will
++be similar in spirit to the present version, but may differ in detail to
++address new problems or concerns.
++
++  Each version is given a distinguishing version number.  If the
++Program specifies that a certain numbered version of the GNU General
++Public License "or any later version" applies to it, you have the
++option of following the terms and conditions either of that numbered
++version or of any later version published by the Free Software
++Foundation.  If the Program does not specify a version number of the
++GNU General Public License, you may choose any version ever published
++by the Free Software Foundation.
++
++  If the Program specifies that a proxy can decide which future
++versions of the GNU General Public License can be used, that proxy's
++public statement of acceptance of a version permanently authorizes you
++to choose that version for the Program.
++
++  Later license versions may give you additional or different
++permissions.  However, no additional obligations are imposed on any
++author or copyright holder as a result of your choosing to follow a
++later version.
++
++  15. Disclaimer of Warranty.
++
++  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
++APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
++HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
++OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
++THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
++PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
++IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
++ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
++
++  16. Limitation of Liability.
++
++  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
++WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
++THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
++GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
++USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
++DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
++PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
++EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
++SUCH DAMAGES.
++
++  17. Interpretation of Sections 15 and 16.
++
++  If the disclaimer of warranty and limitation of liability provided
++above cannot be given local legal effect according to their terms,
++reviewing courts shall apply local law that most closely approximates
++an absolute waiver of all civil liability in connection with the
++Program, unless a warranty or assumption of liability accompanies a
++copy of the Program in return for a fee.
++
++                     END OF TERMS AND CONDITIONS
++
++            How to Apply These Terms to Your New Programs
++
++  If you develop a new program, and you want it to be of the greatest
++possible use to the public, the best way to achieve this is to make it
++free software which everyone can redistribute and change under these terms.
++
++  To do so, attach the following notices to the program.  It is safest
++to attach them to the start of each source file to most effectively
++state the exclusion of warranty; and each file should have at least
++the "copyright" line and a pointer to where the full notice is found.
++
++    <one line to give the program's name and a brief idea of what it does.>
++    Copyright (C) <year>  <name of author>
++
++    This program is free software: you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation, either version 3 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program.  If not, see <http://www.gnu.org/licenses/>.
++
++Also add information on how to contact you by electronic and paper mail.
++
++  If the program does terminal interaction, make it output a short
++notice like this when it starts in an interactive mode:
++
++    <program>  Copyright (C) <year>  <name of author>
++    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
++    This is free software, and you are welcome to redistribute it
++    under certain conditions; type `show c' for details.
++
++The hypothetical commands `show w' and `show c' should show the appropriate
++parts of the General Public License.  Of course, your program's commands
++might be different; for a GUI interface, you would use an "about box".
++
++  You should also get your employer (if you work as a programmer) or school,
++if any, to sign a "copyright disclaimer" for the program, if necessary.
++For more information on this, and how to apply and follow the GNU GPL, see
++<http://www.gnu.org/licenses/>.
++
++  The GNU General Public License does not permit incorporating your program
++into proprietary programs.  If your program is a subroutine library, you
++may consider it more useful to permit linking proprietary applications with
++the library.  If this is what you want to do, use the GNU Lesser General
++Public License instead of this License.  But first, please read
++<http://www.gnu.org/philosophy/why-not-lgpl.html>.
+\ No newline at end of file
+diff --git a/CAIO README.md b/CAIO README.md
+new file mode 100644
+index 000000000..c12f02888
+--- /dev/null
++++ b/CAIO README.md	
+@@ -0,0 +1,322 @@
++## Introduction
++
++CAIO is a server-client communication system for WoW AddOns. It is an extension of [AIO](https://github.com/Rochet2/AIO) to support C++ server side handling.
++AIO is designed for sending lua addons and data between players and server.
++
++Currently CAIO only supports AzerothCore 3.3.5 branch. [Compare and review](https://github.com/azerothcore/azerothcore-wotlk/commit/ed2997ab10c4ce1c7011f6859857f10145576488).
++
++## Supported AIO version
++
++AIO Version 1.72
++
++## Install
++
+++ Clone this repository/branch or merge with your own AzerothCore 3.3.5 branch
+++ Build/Install AzerothCore
+++ [Install(Add) (C)AIO scripts](#api-reference)
+++ Run SQL files from `AzerothCore_Installation_Dir/sql/CAIO` to insert commands, permissions and strings
+++ Copy `AIO_Client` folder from [AIO](https://github.com/Rochet2/AIO) repository to `WoW_Installation_Dir/Interface/AddOns`
+++ Copy your client side addons to `AzerothCore_Installation_Dir/lua_client_scripts`
++
++## Todo
++
+++ Add CAIO `Init` time-out configuration
+++ Add CAIO buffer time-out configuration
+++ Add CAIO error time-out configuration
+++ Add CAIO maximum cache size configuration
+++ Implement Obfuscation
+++ Add individual permissions for each CAIO command
+++ Implement Compression
++
++## API reference
++
++### Creating a CAIO script
++
++```cpp
++class ExampleCAIOScript : public AIOScript
++{
++public:
++	ExampleCAIOScript()
++		: AIOScript("ExampleScriptName")
++	{
++		using namespace std::placeholders;
++
++		// Loads addon files to addons list and sends them on AIO client initialization
++		// Looks for the file in path config AIO.ClientScriptPath
++		AddAddon(World::AIOAddon("ExampleAddon", "example_addon.lua"));
++
++		// You can also add addons to be sent to players with specific permission
++		AddAddon(World::AIOAddon("AnotherAddon", "example_addon.lua", SEC_GAMEMASTER)); //SEC_GAMEMASTER refers to gm level
++
++		// Handler function signature: void HandlerFunction(Player *sender, const LuaVal &args)
++		AddHandler("Print", std::bind(&ExampleCAIOScript::HandlePrint, this, _1, _2));
++		AddHandler("Save", std::bind(&ExampleCAIOScript::HandleSave, this, _1, _2));
++
++		// Initialization handler and arguments
++		AddInitArgs("ExampleScriptName", "Init", std::bind(&ExampleCAIOScript::InitArg, this, _1), std::bind(&ExampleCAIOScript::InitArg, this, _1));
++		//Adds additional argument to send to handler
++		AddInitArgs("ExampleScriptName", "Init", std::bind(&ExampleCAIOScript::InitArg2, this, _1));
++		AddInitArgs("AnotherScript", "InitB"); //Arguments are not necessary
++	}
++
++	void HandlePrint(Player *sender, const LuaVal &args)
++	{
++	    //LuaVal args in a handler function is always a table
++		//Handler arguments index starts from 4
++		LuaVal &InputVal = args[4];
++		LuaVal &SliderVal = args[5];
++
++		//MUST check if the value type is valid or else smallfolk_cpp will
++		//throw on obtaining that type
++		if(!InputVal.isstring() || !SliderVal.isnumber())
++		{
++			return;
++		}
++
++		sender->GetSession()->SendNotification("HandlePrint -> Stored String: %s, Input: %s, Slider Value: %f",
++			storedString.c_str(), InputVal.str().c_str(), SliderVal.num());
++	}
++
++	void HandleSave(Player *sender, const LuaVal &args)
++	{
++	    //LuaVal args in a handler function is always a table
++		//Handler arguments index starts from 4
++		LuaVal &SaveVal = args[4];
++
++		//MUST check if the value type is valid
++		if(!SaveVal.isstring())
++		{
++			return;
++		}
++
++		storedString = SaveVal.str();
++		sender->GetSession()->SendNotification("Saved");
++	}
++
++	LuaVal InitArg(Player *sender)
++	{
++		LuaVal arg = LuaVal(TTABLE);
++		arg.set("key", 12.3);
++		arg["key2"] = false;
++
++		return arg;
++	}
++
++	LuaVal InitArg2(Player *sender)
++	{
++		return "LuaVal will implicitly create a string LuaVal for this arg";
++	}
++
++private:
++	std::string storedString;
++};
++```
++
++### smallfolk_cpp LuaVal reference
++
++https://github.com/Rochet2/smallfolk_cpp
++
++### CAIO reference and functions
++
++**ScriptMgr.h**
++
++```cpp
++class AIOScript : public ScriptObject
++{
++public:
++	virtual ~AIOScript();
++
++	// Returns the key of this CAIO script
++	LuaVal GetKey() const;
++
++protected:
++	// Registers an AIO Handler script of scriptName
++	AIOScript(const LuaVal &scriptKey);
++
++	// Registers a handler function to call when handling
++	// handleKey of this script.
++	void AddHandler(const LuaVal &handlerKey, HandlerFunc function);
++
++	// Adds a client side handler to call and adds arguments
++	// to sends with it for AIO client initialization.
++	//
++	// You can add additional arguments to the handler by
++	// calling this function again
++	void AddInitArgs(const LuaVal &scriptKey, const LuaVal &handlerKey,
++		ArgFunc a1 = ArgFunc(), ArgFunc a2 = ArgFunc(), ArgFunc a3 = ArgFunc(),
++		ArgFunc a4 = ArgFunc(), ArgFunc a5 = ArgFunc(), ArgFunc a6 = ArgFunc());
++
++	// Adds a WoW addon file to the list of addons with a unique
++	// addon key to send on AIO client initialization.
++	// Returns true if addon was added, false if addon key is taken.
++	//
++	// It is required to call World::ForceReloadPlayerAddons()
++	// if addons are added after server is fully initialized
++	// for online players to load the added addons.
++	bool AddAddon(const World::AIOAddon &addon);
++
++	// Returns pointer to an AIO script by its key and typename.
++	// Returns null if scriptName doesn't exist or typename was incorrect.
++	template<class ScriptClass>
++	ScriptClass *GetScript(const LuaVal &key);
++}
++```
++
++**AIOMsg.h**
++
++```cpp
++class AIOMsg
++{
++public:
++	//Creates an empty AIOMsg
++	AIOMsg();
++
++	//Creates a AIO message and adds one block
++	AIOMsg(const LuaVal &scriptKey, const LuaVal &handlerKey,
++		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
++		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
++
++	//Adds another block
++	//Another block will call another handler in one message
++	AIOMsg &Add(cconst LuaVal &scriptKey, const LuaVal &handlerKey,
++		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
++		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
++
++	//Appends the last block
++	//You can add additional arguments to the last block
++	AIOMsg &AppendLast(const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
++		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
++
++	//Returns smallfolk dump of the AIO message
++	std::string dumps() const;
++```
++
++**Player.h**
++
++```cpp
++class Player
++{
++public:
++	//Returns whether AIO client has been initialized
++	bool AIOInitialized() const;
++
++	// Sends an AIO message to the player
++	// See: class AIOMsg
++	void AIOMessage(AIOMsg &msg);
++
++	// Triggers an AIO handler on the client
++	// To trigger multiple handlers in one message or to send more
++	// arguments use Player::AIOMessage
++	void AIOHandle(const LuaVal &scriptKey, const LuaVal &handlerKey,
++		const LuaVal &a1 = LuaVal::nil(), const LuaVal &a2 = LuaVal::nil(), const LuaVal &a3 = LuaVal::nil(),
++		const LuaVal &a4 = LuaVal::nil(), const LuaVal &a5 = LuaVal::nil(), const LuaVal &a6 = LuaVal::nil());
++
++	// AIO can only understand smallfolk LuaVal::dumps() format
++	// Handler functions are called by creating a table as below
++	// {
++	//     {n, ScriptName, HandlerName(optional), Arg1..N(optional) },
++	//     {n, AnotherScriptName, AnotherHandlerName(optional), Arg1..N(optional) }
++	// }
++	// Where n is number of arguments including handler name as an argument
++	void SendSimpleAIOMessage(const std::string &message);
++
++	// Forces reload on the player AIO addons
++	// Syncs player AIO addons with server
++	void ForceReloadAddons();
++
++	// Force reset on the player AIO addons
++	// Player AIO addons and addon data is deleted and downloaded again
++	void ForceResetAddons();
++
++	bool isAIOInitOnCooldown() const;
++	void setAIOIntOnCooldown(bool cd);
++}
++```
++
++**World.h**
++
++```cpp
++// AIOAddon container constructor
++// AccType SEC_PLAYER will load the addon on every player
++World::AIOAddon::AIOAddon(const std::string &addonName, const std::string &addonFile, const AccountTypes type = SEC_PLAYER);
++
++// AIO prefix configured in worldserver.conf
++std::string World::GetAIOPrefix() cons;
++
++// AIO client LUA files path configured in worldserver.conf
++std::string World::GetAIOClientScriptPath() const;
++
++// Forces reload on all player AIO addons
++// Syncs player AIO addons with server
++void World::ForceReloadPlayerAddons(const AccountTypes type = SEC_PLAYER);
++
++// Forces reset on all player AIO addons
++// Player AIO addons and addon data is deleted and downloaded again
++void World::ForceResetPlayerAddons(const AccountTypes type = SEC_PLAYER);
++
++// Sends an AIO message to all players
++// See: class AIOMsg
++void World::AIOMessageAll(AIOMsg &msg, const AccountTypes type = SEC_PLAYER);
++
++// Sends a simple string message to all players
++
++// AIO can only understand smallfolk LuaVal::dumps() format
++// Handler functions are called by creating a table as below
++// {
++//     {n, ScriptName, HandlerName(optional), Arg1..N(optional) },
++//     {n, AnotherScriptName, AnotherHandlerName(optional), Arg1..N(optional) }
++// }
++// Where n is number of arguments including handler name as a argument
++void World::SendAllSimpleAIOMessage(const std::string &message, const AccountTypes type = SEC_PLAYER);
++
++// Reloads client side AIO addon files and force reloads
++// all player AIO addons
++// Returns true if successful, false if an error occurred
++bool World::ReloadAddons();
++
++// Adds a WoW AIO addon file to the list of addons with a unique
++// addon name to send on AIO client initialization.
++// Returns true if addon was added, false if addon name is already taken
++//
++// It is required to call World::ForceReloadPlayerAddons()
++// if addons are added after server is fully initialized
++// for online players to load the added addons.
++bool World::AddAddon(const AIOAddon &addon);
++
++// Removes an addon from addon list and force reloads affected players
++// Returns true if an addon was removed, false if addon not found
++//
++// It is required to call World::ForceReloadPlayerAddons()
++// if addons are added after server is fully initialized
++// for online players to load the added addons.
++bool World::RemoveAddon(const std::string &addonName);
++```
++
++## CAIO game commands
++
+++ .caio version
+++ .caio addaddon $addonName [$permission] "$addonFile"
+++ .caio removeaddon $addonName
+++ .caio reloadaddons
+++ .caio forcereload $playerName
+++ .caio forcereset $playerName
+++ .caio forcereloadall [$permission]
+++ .caio forceresetall [$permission]
+++ .caio send $playerName "Message"
+++ .caio sendall [$permission] "Message"
++
++Note: By default every player has permission SEC_PLAYER. Permission SEC_PLAYER will be used if not specified.
++
++## Reporting issues and submitting fixes
++
++Issues can be reported via the [Github issue tracker](https://github.com/SaiFi0102/TrinityCore/issues). Fixes can be submitted as pull requests on the Github repository.
++
++## Authors, Contributors &amp; Thanks
++
+++ Saif
++  + CAIO
+++ Rochet2
++  + [AIO](https://github.com/Rochet2/AIO)
++  + [smallfolk_cpp](https://github.com/Rochet2/smallfolk_cpp) to handle and transmit Lua data in C++
+++ Alistar(lineagedr)
++  + Updated CAIO to latest AC version.
+\ No newline at end of file
+diff --git a/data/sql/custom/db_world/caio_world.sql b/data/sql/custom/db_world/caio_world.sql
+new file mode 100644
+index 000000000..fea992fc7
+--- /dev/null
++++ b/data/sql/custom/db_world/caio_world.sql
+@@ -0,0 +1,24 @@
++/*
++SQLyog Community v13.2.0 (64 bit)
++MySQL - 8.0.28
++*********************************************************************
++*/
++/*!40101 SET NAMES utf8 */;
++
++insert into `command` (`name`, `security`, `help`) values ('caio','0','Syntax: .caio $subcommand\r\nType .caio to see the list of possible subcommands or .help caio $subcommand to see info on subcommands');
++insert into `command` (`name`, `security`, `help`) values ('caio version','0','Syntax: .caio version\r\nShows the AIO version');
++insert into `command` (`name`, `security`, `help`) values ('caio addaddon','3','Syntax: .caio addaddon $addonName [$permission] \"$addonFile\"\r\nAdds an addon to addon list for players with $permission and force reloads all affected player addons');
++insert into `command` (`name`, `security`, `help`) values ('caio removeaddon','3','Syntax: .caio removeaddon $addonName\r\nRemoves an addon from addon list and force reloads all affected player addons');
++insert into `command` (`name`, `security`, `help`) values ('caio reloadaddons','3','Syntax: .caio reloadaddons\r\nReloads all client addons loaded on the server and forces reload on all players.');
++insert into `command` (`name`, `security`, `help`) values ('caio forcereload','3','Syntax: .caio forcereload $playerName\r\nForce reloads player\\\'s addons. Player addons are synced with server.');
++insert into `command` (`name`, `security`, `help`) values ('caio forcereset','3','Syntax: .caio forcereset $playerName\r\nForce resets player\\\'s addons. Player addons are deleted and downloaded again.');
++insert into `command` (`name`, `security`, `help`) values ('caio forcereloadall','3','Syntax: .caio forcereloadall [$permission]\r\nForce reloads players of $permission and above. Affected players\\\' addons are synced with the server.');
++insert into `command` (`name`, `security`, `help`) values ('caio forceresetall','3','Syntax: .caio forceresetall [$permission]\r\nForce resets players of $permission and above. Affected players\\\' addons are deleted and downloaded again.');
++insert into `command` (`name`, `security`, `help`) values ('caio send','3','Syntax: .caio send $playerName \"Message\"\r\nSends an addon message to player');
++insert into `command` (`name`, `security`, `help`) values ('caio sendall','3','Syntax: .caio sendall [$permission] \"Message\"\r\nSends an addon message to all players of $permission and above');
++
++insert into `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) values ('60002','Force reload message sent to %s',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
++insert into `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) values ('60003','Force reset message sent to %s',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
++insert into `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) values ('60004','There was a problem reloading client addons. Force reload was not sent.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
++insert into `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) values ('60005','Addon with name \\\'%s\\\' already exists or file not found.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
++insert into `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) values ('60006','Addon with name \\\'%s\\\' not found.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+diff --git a/deps/CMakeLists.txt b/deps/CMakeLists.txt
+index 8364181a9..cc220105d 100644
+--- a/deps/CMakeLists.txt
++++ b/deps/CMakeLists.txt
+@@ -25,6 +25,7 @@ add_subdirectory(openssl)
+ add_subdirectory(stdfs)
+ add_subdirectory(threads)
+ add_subdirectory(utf8cpp)
++add_subdirectory(smallfolk_cpp)
+ 
+ if ((APPS_BUILD AND (NOT APPS_BUILD STREQUAL "none")) OR BUILD_TOOLS_DB_IMPORT)
+   add_subdirectory(mysql)
+diff --git a/deps/smallfolk_cpp/.gitignore b/deps/smallfolk_cpp/.gitignore
+new file mode 100644
+index 000000000..b8bd0267b
+--- /dev/null
++++ b/deps/smallfolk_cpp/.gitignore
+@@ -0,0 +1,28 @@
++# Compiled Object files
++*.slo
++*.lo
++*.o
++*.obj
++
++# Precompiled Headers
++*.gch
++*.pch
++
++# Compiled Dynamic libraries
++*.so
++*.dylib
++*.dll
++
++# Fortran module files
++*.mod
++
++# Compiled Static libraries
++*.lai
++*.la
++*.a
++*.lib
++
++# Executables
++*.exe
++*.out
++*.app
+diff --git a/deps/smallfolk_cpp/.travis.yml b/deps/smallfolk_cpp/.travis.yml
+new file mode 100644
+index 000000000..b9850e725
+--- /dev/null
++++ b/deps/smallfolk_cpp/.travis.yml
+@@ -0,0 +1,24 @@
++language: cpp
++
++compiler:
++  - clang
++  - gcc
++
++install:
++  - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
++
++addons:
++  apt:
++    sources:
++    - ubuntu-toolchain-r-test
++    packages:
++    - gcc-4.8
++    - g++-4.8
++    - clang
++
++script:
++  - mkdir bin
++  - cd bin
++  - cmake ../
++  - make
++  - ./smallfolk_cpp
+diff --git a/deps/smallfolk_cpp/CMakeLists.txt b/deps/smallfolk_cpp/CMakeLists.txt
+new file mode 100644
+index 000000000..6aefa8d0e
+--- /dev/null
++++ b/deps/smallfolk_cpp/CMakeLists.txt
+@@ -0,0 +1,41 @@
++#
++# This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
++#
++# This file is free software; as a special exception the author gives
++# unlimited permission to copy and/or distribute it, with or without
++# modifications, as long as this notice is preserved.
++#
++# This program is distributed in the hope that it will be useful, but
++# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
++# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
++#
++
++set(SMALLFOLK_HEADERS
++  smallfolk.h)
++
++set(SMALLFOLK_SOURCES
++  smallfolk.cpp)
++
++add_library(smallfolk_cpp STATIC ${SMALLFOLK_SOURCES} ${SMALLFOLK_HEADERS})
++
++
++target_include_directories(smallfolk_cpp
++  PUBLIC
++    ${CMAKE_CURRENT_SOURCE_DIR})
++
++target_link_libraries(smallfolk_cpp
++  PRIVATE
++    acore-dependency-interface)
++
++set_target_properties(smallfolk_cpp
++  PROPERTIES
++    FOLDER
++      "deps")
++
++if (MSVC)
++    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
++    add_definitions(-D_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES)
++    add_definitions(-D_CRT_SECURE_NO_WARNINGS)
++else ()
++    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wextra -Wno-long-long -pedantic -std=c++11")
++endif ()
+\ No newline at end of file
+diff --git a/deps/smallfolk_cpp/LICENSE.md b/deps/smallfolk_cpp/LICENSE.md
+new file mode 100644
+index 000000000..d0abc3513
+--- /dev/null
++++ b/deps/smallfolk_cpp/LICENSE.md
+@@ -0,0 +1,19 @@
++Copyright (c) 2022 Rochet2
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in
++all copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
++THE SOFTWARE.
+diff --git a/deps/smallfolk_cpp/README.md b/deps/smallfolk_cpp/README.md
+new file mode 100644
+index 000000000..1c8383203
+--- /dev/null
++++ b/deps/smallfolk_cpp/README.md
+@@ -0,0 +1,255 @@
++# smallfolk_cpp
++
++[![Build Status](https://travis-ci.org/Rochet2/smallfolk_cpp.svg?branch=master)](https://travis-ci.org/Rochet2/smallfolk_cpp)
++
++Smallfolk_cpp is a library for representing `Lua` values in `C++` and (de)serializing them. The serialization is made to work with smallfolk serializer made for lua. Most serializer logic is borrowed from gvx/Smallfolk. https://github.com/gvx/Smallfolk
++
++Smallfolk_cpp does not have dependencies other than `C++11` and it **does not need lua**. It simply uses same format and logic as gvx/Smallfolk for serialization.
++
++Smallfolk_cpp has its own type `LuaVal` to represent `Lua` values in `C++`.
++They allow representing bool, number, string, nil and table.
++
++Due to implementation difficulties and security some features of gvx/Smallfolk are not supported. A version of smallfolk for lua with the unsupported features removed can be found at https://github.com/Rochet2/Smallfolk
++
++You use, distribute and extend Smallfolk_cpp under the terms of the MIT license.
++
++## Usage
++
++```C++
++#include smallfolk.h
++
++// create a lua table and set some values to it
++LuaVal table = LuaVal::table();
++table[1] = "Hello"; // the values is automatically converted to LuaVal
++table["test"] = "world";
++table[67.5] = -234.5;
++
++// serialize the table
++std::string serialized = table.dumps();
++
++// print the serialization, it should be rather human readable
++// Example output: {"Hello","test":"world",67.5:-234.5}
++std::cout << serialized << std::endl;
++
++// form lua values from the string
++LuaVal deserialized = LuaVal::loads(serialized);
++
++// print the values from deserialized result table
++// Example output: Hello world -234.5
++std::cout << deserialized[1].str() << " ";
++std::cout << deserialized["test"].str() << " ";
++std::cout << deserialized[67.5].num() << std::endl;
++```
++
++## Fast
++
++Its C++, duh!?
++
++Some poor benchmarking shows that plain serializing takes ~0.01ms. If creating, serializing and destroying created objects ~0.025ms. Deserializing takes ~0.05ms when destroying the created objects as well.
++This is of course completely different depending on what data you serialize and deserialize.
++In general it would seem that deserializing is ~50% slower.
++
++To put this into any kind of perspective, here is the print of the serialized data:
++```lua
++{t,"somestring",123.456,t:-678,"test":123.45600128173828,f:268435455,"subtable":{1,2,3}}
++```
++
++## Table cycles
++
++__Note: This feature was disabled cause of difficult implementing in C++ and possibly unwanted infinite cycles. All table assigning create copies now in the C++ code and no @ notation is recognised for serializing or deserializing. Any such references are set to nil when deserializing. Any @ references are otherwise deep copies in the C++ code__
++
++From original smallfolk
++> Sometimes you have strange, non-euclidean geometries in your table
++> constructions. It happens, I don't judge. Smallfolk can deal with that, where
++> some other serialization libraries (or anything that produces JSON) cry "Iä!
++> Iä! Cthulhu fhtagn!" and give up &mdash; or worse, silently produce incorrect
++> data.
++>
++> ```C++
++> #include smallfolk.h
++>
++> // Essentially {{},{},{}}
++> LuaVal cthulhu(TTABLE);
++> cthulhu[1] = LuaVal(TTABLE);
++> cthulhu[2] = LuaVal(TTABLE);
++> cthulhu[3] = LuaVal(TTABLE);
++> cthulhu["fhtagn"] = cthulhu;
++> cthulhu[1][cthulhu[2]] = cthulhu[3];
++> cthulhu[2][cthulhu[1]] = cthulhu[2];
++> cthulhu[3][cthulhu[3]] = cthulhu;
++> std::cout << cthulhu.dumps() << std::endl;
++> // prints:
++> // {"fhtagn":@1,1:{{@2:@3}:{@4:@1}},2:@3,3:@4}
++> ```
++
++## Security
++
++I cannot guarantee that this code is secure. All I can give is that I have attempted to make it safe and implemented exceptions best I know to handle unexpected situations.
++
++## Tested
++
++All tests can be seen in the main.cpp provided.
++The code has been in use with a server-client C++-Lua communication system called AIO through which the API has been made more usable and critical issues have been addressed.
++- https://github.com/Rochet2/AIO
++- https://github.com/Rochet2/TrinityCore/tree/c_aio
++- https://github.com/SaiFi0102/TrinityCore/tree/CAIO-3.3.5
++
++## Reference
++
++### try-catch
++Most functions can throw `smallfolk_exception` and some string library errors and possibly more.
++One method for try catching errors you can use is this:
++```C++
++try {
++  // smallfolk_cpp code
++}
++catch (smallfolk_exception& e) {
++    std::cout << e.what() << std::endl;
++}
++```
++
++You need to catch exceptions mostly from incorrect handling of LuaVal. For example trying to access a number like a table will cause an exception.
++
++### serializing
++Serializing happens by calling the member function `std::string LuaVal::dumps(std::string* errmsg = nullptr)`. When an error occurs with the serialization an empty string is returned and if errmsg points to a string then it is filled with the error message.
++This function does not throw.
++
++### deserializing
++Deserializing happens by calling the function `static LuaVal LuaVal::loads(std::string const & string, std::string* errmsg = nullptr)`. When an error occurs with the deserialization a LuaVal representing a nil is returned and if errmsg points to a string then it is filled with the error message.
++This function does not throw.
++
++### LuaVal
++LuaVal is a type used to represent lua values in C++. LuaVal has a range of functions to access the underlying values and to construct LuaVal from different values. LuaVal is the input for serialization and output of deserialization.
++
++### LuaVal constructors
++Constructors allow implicitly constructing values.
++Constructors do not throw. Watch out for quirks with initializer list constructor: http://stackoverflow.com/questions/26947704/implicit-conversion-failure-from-initializer-list
++```C++
++LuaVal implicit_test = -123;
++LuaVal copy_test(implicit_test);
++LuaVal copy_test2 = implicit_test;
++LuaVal n = LuaVal::nil; // nil
++LuaVal n2(TNIL); // nil
++LuaVal b(true);
++LuaVal s("a string");
++LuaVal d(123.456);
++LuaVal f(123.456f);
++LuaVal i(-678);
++LuaVal u(0xFFFFFFF);
++LuaVal t; // defaults to table
++LuaVal t2 = LuaVal::table();
++LuaVal t3 = { 1, 2, { 1,2,3 } };
++LuaVal t4 = {};
++LuaVal t5(TTABLE);
++LuaVal t6 = LuaVal::LuaTable{ { "key", "value" }, { 2, "value2" } }; // Table can be created with map table initializer list constructor also
++
++// You can mix and match a lot of different types and containers for creating tables.
++// For example vectors, lists, maps, arrays are supported for creating LuaVal.
++std::vector<std::list<std::string>> vec = {{"a", "b"},{"a", "b"}};
++LuaVal t5 = {1,2, "test", vec};
++// Resulting table: {1,2,"test",{{"a","b"},{"a","b"}}}
++```
++
++Creating sequences is easy, but creating complex tables that contain different types of values can be difficult or take a lot of space in code. To avoid quirks and for conveience you can deserialize strings to create values in a compact way. Here two equivalent values are created with normal style and deserialization:
++```c++
++LuaVal val1 = { 1,2, LuaVal::mrg({3,4.5}, LuaVal::LuaTable({{"ke","test"}})) };
++LuaVal val2 = LuaVal::loads("{1,2,{3,4.5,'ke':'test'}}");
++```
++
++### static nil
++A static value `static const LuaVal LuaVal::nil` is a preconstructed nil object.
++It can be used as a default value or return value when a const nil value reference is needed to avoid constructing unnecessary copies.
++
++### hash
++The LuaVal class contains a hasher `LuaVal::LuaValHasher`. You need to use it when you use a LuaVal in a hash container for example: `std::unordered_set<LuaVal, LuaVal::LuaValHasher> myset;` or `std::unordered_map<LuaVal, int, LuaVal::LuaValHasher> mymap;`.
++Currently there are no order operators implemented to be used for sorted sets and maps however.
++May throw if LuaVal is not valid for some reason (which should not be possible).
++
++### typetag
++There are definitions for typetags used to identify each value type. These can be used in the constructor of a LuaValue as well.
++For example a table can be created with `LuaValue table(TTABLE)`. You can get the typetag of an object with the member function `LuaTypeTag LuaVal::typetag()`.
++GetTypeTag does not throw.
++```C++
++enum LuaTypeTag
++{
++    TNIL,
++    TSTRING,
++    TNUMBER,
++    TTABLE,
++    TBOOL,
++};
++```
++
++### tostring
++The member function `std::string LuaVal::tostring()` returns a string representation of the object. This is similar to tostring in lua.
++You can get a string representation of the typetag of a value with `value.type()`.
++You can get a string representation of a typetag with `LuaVal::type(tag)`.
++All of these may throw if LuaVal or tag is not valid for some reason (which should not be possible).
++
++### operators
++The LuaVal class offers a few operators.
++You can use == and != operators to compare, however different table objects are copies so they are never equal unless you actually compare with the same object.
++LuaVal has the bool operator implemented so that nil and false will return false if a LuaVal is in a conditional statement. The assignment operator is also implemented and works as you would expect.
++May throw if LuaVal is not valid for some reason (which should not be possible).
++
++### isvalue
++There is a collection of member functions you can use to check whether the object is really of some type.
++These functions do not throw.
++```C++
++luaval.isstring()
++luaval.isnumber()
++luaval.istable()
++luaval.isbool()
++luaval.isnil()
++```
++
++### LuaVal values
++LuaVal can represent different types of data like a string and a number. To access the underlying value you must use specific functions.
++The functions will throw if you use them on the wrong type object, for example using the str function on a table will throw.
++```C++
++luaval.num()
++luaval.str()
++luaval.boolean()
++luaval.tbl()
++```
++
++### table access
++There are several methods for accessing and editing a table.
++**Note Inserted values will be deep copies in all cases.**
++
++The way of accessing and inserting map elements are the get and set member functions `luaval.get(key)`, `luaval.set(key, value)`.
++The function `set` returns the accessed table itself, so you can chain it to set multiple values.
++When a value is attempted to be set as nil, it will be erased from the table instead.
++These functions do not throw unless you use them on non table objects or with nil keys. `luaval.setignore(key, value)` works like `luaval.set(key, value)`, except it will not do anything if a value already exists in the table for that key.
++
++The get method above will provide only const reference access to the table elements. For non const access to elements you must use the `[]` operator like so `luaval[key]`. If the accessed key does not exist in the accessed table then a table value is created to the table for that key. This means that accessing nonexisting elements will create clutter to the table. Setting a value to nil using brackets will store a nil value to the table instead of removing the key from the table.
++This operator does not throw unless you use it on non table objects or with nil keys.
++
++`luaval.has(key)` can be used to check if a value can be found in a table.
++This function do not throw unless you use it on non table objects or with nil keys.
++
++A method for erasing data with a key is `luaval.rem(key)` which also returns the accessed table.
++This function do not throw unless you use it on non table objects or with nil keys.
++
++Example usage of the functions:
++```C++
++LuaVal table(TTABLE); // create an empty table
++table.set(1, "test").set(2, 77.234).set(3, -324); // set multiple values
++table.set("self copy", table); // attempting to set a table into itself will create a deep copy
++table.set(table, "table as key?"); // table will work as a key, but it will be a deep copy so you can not access it later
++std::cout << table.get("self copy").get(3).num() << std::endl; // get a value from a nested table
++table["number"] = 234; // Use table access operator to assign a value
++LuaVal & value = table["number"]; // Use table access operator to get a value
++table.set(e, LuaVal::nil).rem("number"); // remove some values through set and rem functions
++if (table.has(100) and table[100].isstring())
++	std::cout << table[100].str() << std::end;
++```
++
++For conveniency tables also have the methods `luaval.insert(value[, pos])`, `luaval.remove([pos])` and `luaval.len()`.
++The len function returns the number of consecutive integer key elements in the table starting at index 1. It is similar to the # operator in lua.
++Insert and remove shift the values on the right side of the given position and insert or remove a value to or at the given position. If position is omitted, the value is inserted to the end of the list or the last element is removed.
++Insert and remove both return the accessed table.
++Each function throws if used on a non table object or pos is not valid.
++
++### table merging
++You can merge two tables with `LuaVal::mrg(tbl1, tbl2)`. This will make a new table that contains values from both tables. If they have same keys then tbl2 will overwrite tbl1 value in the new table.
+diff --git a/deps/smallfolk_cpp/smallfolk.cpp b/deps/smallfolk_cpp/smallfolk.cpp
+new file mode 100644
+index 000000000..2f68ccf41
+--- /dev/null
++++ b/deps/smallfolk_cpp/smallfolk.cpp
+@@ -0,0 +1,688 @@
++#include "smallfolk.h"
++#include <map>
++#include <iomanip> // std::setprecision
++#include <sstream> // std::stringstream
++#include <cmath> // std::floor
++#include <stdarg.h> // va_start
++#include <functional> // std::hash
++
++namespace Serializer
++{
++    typedef std::vector<LuaVal> TABLES;
++    typedef std::unordered_map<LuaVal, unsigned int, LuaVal::LuaValHasher> MEMO;
++    typedef std::stringstream ACC;
++
++    // sprintf is ~50% faster than other solutions
++    inline std::string tostring(const double d)
++    {
++        char arr[128];
++        sprintf(arr, "%.17g", d);
++        return arr;
++    }
++    inline std::string tostring(LuaVal::TblPtr const & ptr)
++    {
++        char arr[128];
++        sprintf(arr, "table: %p", static_cast<void*>(ptr.get()));
++        return arr;
++    }
++
++    unsigned int dump_type_table(LuaVal const & object, unsigned int nmemo, MEMO& memo, ACC& acc);
++    unsigned int dump_object(LuaVal const & object, unsigned int nmemo, MEMO& memo, ACC& acc);
++    std::string escape_quotes(const std::string &before, char quote);
++    std::string unescape_quotes(const std::string &before, char quote);
++    bool nonzero_digit(char c);
++    bool is_digit(char c);
++    char strat(std::string const & string, std::string::size_type i);
++    LuaVal expect_number(std::string const & string, size_t& start);
++    LuaVal expect_object(std::string const & string, size_t& i, TABLES& tables);
++}
++
++LuaVal const LuaVal::nil(TNIL);
++
++std::string LuaVal::tostring() const
++{
++    switch (tag)
++    {
++    case TBOOL:
++        if (b)
++            return "true";
++        else
++            return "false";
++    case TNIL:
++        return "nil";
++    case TSTRING:
++        return s;
++    case TNUMBER:
++        return Serializer::tostring(d);
++    case TTABLE:
++        return Serializer::tostring(tbl_ptr);
++    }
++    throw smallfolk_exception("tostring invalid or unhandled tag %i", tag);
++}
++
++size_t LuaVal::LuaValHasher::operator()(LuaVal const & v) const
++{
++    return LuaValHash(v);
++}
++
++size_t LuaValHash(LuaVal const & v)
++{
++    switch (v.tag)
++    {
++    case TBOOL:
++        return std::hash<bool>()(v.b);
++    case TNIL:
++        return std::hash<int>()(0);
++    case TSTRING:
++        return std::hash<std::string>()(v.s);
++    case TNUMBER:
++        return std::hash<double>()(v.d);
++    case TTABLE:
++        return std::hash<LuaVal::TblPtr>()(v.tbl_ptr);
++    }
++    return std::hash<std::string>()(v.tostring());
++}
++
++LuaVal & LuaVal::operator[](LuaVal const & k)
++{
++    if (!istable())
++        throw smallfolk_exception("using [] on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using [] with nil key");
++    LuaTable & tbl = (*tbl_ptr);
++    return tbl[k];
++}
++
++LuaVal const & LuaVal::operator[](LuaVal const & k) const
++{
++    return get(k);
++}
++
++LuaVal const & LuaVal::get(LuaVal const & k) const
++{
++    if (!istable())
++        throw smallfolk_exception("using get on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using get with nil key");
++    LuaTable & tbl = (*tbl_ptr);
++    auto it = tbl.find(k);
++    if (it != tbl.end())
++        return it->second;
++    return nil;
++}
++
++bool LuaVal::has(LuaVal const & k) const
++{
++    if (!istable())
++        throw smallfolk_exception("using has on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using has with nil key");
++    LuaTable & tbl = (*tbl_ptr);
++    auto it = tbl.find(k);
++    return it != tbl.end();
++}
++
++LuaVal & LuaVal::set(LuaVal const & k, LuaVal const & v)
++{
++    if (!istable())
++        throw smallfolk_exception("using set on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using set with nil key");
++    LuaTable & tbl = (*tbl_ptr);
++    if (v.isnil()) // on nil value erase key
++        tbl.erase(k);
++    else
++        tbl[k] = v; // normally set pair
++    return *this;
++}
++
++LuaVal & LuaVal::setignore(LuaVal const & k, LuaVal const & v)
++{
++    if (!istable())
++        throw smallfolk_exception("using setignore on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using setignore with nil key");
++    if (v.isnil())
++        return *this;
++    LuaTable & tbl = (*tbl_ptr);
++    tbl.emplace(k, v);
++    return *this;
++}
++
++LuaVal & LuaVal::rem(LuaVal const & k)
++{
++    if (!istable())
++        throw smallfolk_exception("using rem on non table object");
++    if (k.isnil())
++        throw smallfolk_exception("using set with nil key");
++    LuaTable & tbl = (*tbl_ptr);
++    tbl.erase(k);
++    return *this;
++}
++
++unsigned int LuaVal::len() const
++{
++    if (!istable())
++        throw smallfolk_exception("using len on non table object");
++    LuaTable & tbl = (*tbl_ptr);
++    unsigned int i = 0;
++    while (++i)
++    {
++        auto it = tbl.find(i);
++        if (it == tbl.end() || it->second.isnil())
++            break;
++    }
++    return i - 1;
++}
++
++LuaVal & LuaVal::insert(LuaVal const & v, LuaVal const & pos)
++{
++    if (!istable())
++        throw smallfolk_exception("using insert on non table object");
++    LuaTable & tbl = (*tbl_ptr);
++    if (pos.isnil())
++    {
++        if (!v.isnil())
++            tbl[len() + 1] = v;
++        return *this;
++    }
++    if (!pos.isnumber())
++        throw smallfolk_exception("using insert with non number pos");
++    if (std::floor(pos.num()) != pos.num())
++        throw smallfolk_exception("using insert with invalid number key");
++    unsigned int max = len() + 1;
++    unsigned int val = static_cast<unsigned int>(pos.num());
++    if (val <= 0 || val > max)
++        throw smallfolk_exception("using insert with out of bounds key");
++    for (unsigned int i = max; i > val; --i)
++        tbl[i] = tbl[i - 1];
++    if (v.isnil())
++        tbl.erase(val);
++    else
++        tbl[val] = v;
++    return *this;
++}
++
++LuaVal & LuaVal::remove(LuaVal const & pos)
++{
++    if (!istable())
++        throw smallfolk_exception("using remove on non table object");
++    LuaTable & tbl = (*tbl_ptr);
++    if (pos.isnil())
++    {
++        if (unsigned int i = len())
++            tbl.erase(i);
++        return *this;
++    }
++    if (!pos.isnumber())
++        throw smallfolk_exception("using remove with non number key");
++    if (std::floor(pos.num()) != pos.num())
++        throw smallfolk_exception("using remove with invalid number key");
++    unsigned int max = len();
++    unsigned int val = static_cast<unsigned int>(pos.num());
++    if (val <= 0 || val > max + 1)
++        throw smallfolk_exception("using remove with out of bounds key");
++    for (unsigned int i = val; i < max; ++i)
++        tbl[i] = tbl[i + 1];
++    tbl.erase(max);
++    return *this;
++}
++
++std::string LuaVal::type(LuaTypeTag tag)
++{
++    switch (tag)
++    {
++        case TBOOL:
++            return "boolean";
++        case TNIL:
++            return "nil";
++        case TSTRING:
++            return "string";
++        case TNUMBER:
++            return "number";
++        case TTABLE:
++            return "table";
++    }
++    throw smallfolk_exception("tostring invalid or unhandled tag %i", tag);
++}
++
++std::string LuaVal::dumps(std::string * errmsg) const
++{
++    try
++    {
++        Serializer::ACC acc;
++        acc << std::setprecision(17); // min lua percision
++        unsigned int nmemo = 0;
++        Serializer::MEMO memo;
++        Serializer::dump_object(*this, nmemo, memo, acc);
++        return acc.str();
++    }
++    catch (smallfolk_exception const & e)
++    {
++        if (errmsg)
++            *errmsg += e.what();
++    }
++    return std::string();
++}
++
++LuaVal LuaVal::loads(std::string const & string, std::string * errmsg)
++{
++    try
++    {
++        Serializer::TABLES tables;
++        size_t i = 0;
++        return Serializer::expect_object(string, i, tables);
++    }
++    catch (smallfolk_exception const & e)
++    {
++        if (errmsg)
++            *errmsg += e.what();
++    }
++    return LuaVal::nil;
++}
++
++bool LuaVal::operator==(LuaVal const& rhs) const
++{
++    if (tag != rhs.tag)
++        return false;
++    switch (tag)
++    {
++    case TBOOL:
++        return b == rhs.b;
++    case TNIL:
++        return true;
++    case TSTRING:
++        return s == rhs.s;
++    case TNUMBER:
++        return d == rhs.d;
++    case TTABLE:
++        return tbl_ptr == rhs.tbl_ptr;
++    }
++    throw smallfolk_exception("operator== invalid or unhandled tag %i", tag);
++}
++
++LuaVal::operator bool() const
++{
++    return !isnil() && (!isbool() || boolean());
++}
++
++LuaVal& LuaVal::operator=(LuaVal const& val)
++{
++    tag = val.tag;
++    if (istable())
++        tbl_ptr.reset(new LuaTable(*val.tbl_ptr));
++    else
++        tbl_ptr = nullptr;
++    s = val.s;
++    d = val.d;
++    b = val.b;
++    return *this;
++}
++
++unsigned int Serializer::dump_type_table(LuaVal const & object, unsigned int nmemo, MEMO & memo, ACC & acc)
++{
++    if (!object.istable())
++        throw smallfolk_exception("using dump_type_table on non table object");
++
++    /*
++    auto it = memo.find(object);
++    if (it != memo.end())
++    {
++    acc << '@' << it->second;
++    return nmemo;
++    }
++    memo[object] = ++nmemo;
++    */
++    acc << '{';
++    std::map<unsigned int, const LuaVal*> arr;
++    std::unordered_map<const LuaVal*, const LuaVal*> hash;
++    for (auto&& v : object.tbl())
++    {
++        if (v.first.isnumber() && v.first.num() >= 1 && std::floor(v.first.num()) == v.first.num())
++            arr[static_cast<unsigned int>(v.first.num())] = &v.second;
++        else
++            hash[&v.first] = &v.second;
++    }
++    unsigned int i = 1;
++    for (auto&& v : arr)
++    {
++        if (v.first != i)
++        {
++            nmemo = dump_object(v.first, nmemo, memo, acc);
++            acc << ':';
++        }
++        else
++            ++i;
++        nmemo = dump_object(*v.second, nmemo, memo, acc);
++        acc << ',';
++    }
++    for (auto&& v : hash)
++    {
++        nmemo = dump_object(*v.first, nmemo, memo, acc);
++        acc << ':';
++        nmemo = dump_object(*v.second, nmemo, memo, acc);
++        acc << ',';
++    }
++    std::string l = acc.str();
++    char c = strat(l, l.length() - 1);
++    if (c != '{')
++    {
++        // remove last char
++        l.pop_back();
++        acc.clear();
++        acc.str(std::string());
++        acc << l;
++    }
++    acc << '}';
++    return nmemo;
++}
++
++unsigned int Serializer::dump_object(LuaVal const & object, unsigned int nmemo, MEMO & memo, ACC & acc)
++{
++    switch (object.typetag())
++    {
++    case TBOOL:
++        acc << (object.boolean() ? 't' : 'f');
++        break;
++    case TNIL:
++        acc << 'n';
++        break;
++    case TSTRING:
++        acc << '"';
++        acc << escape_quotes(object.str(), '"'); // change to std::quote() in c++14?
++        acc << '"';
++        break;
++    case TNUMBER:
++        if (!std::isfinite(object.num()))
++        {
++            // slightly ugly :(
++            std::string nn = tostring(object.num());
++            if (nn == "inf")
++                acc << 'I';
++            else if (nn == "-inf")
++                acc << 'i';
++            else if (nn == "-nan(ind)")
++                acc << 'N';
++            else if (nn == "nan")
++                acc << 'Q';
++            else
++                acc << 'I';
++        }
++        else
++            acc << object.num();
++        break;
++    case TTABLE:
++        return dump_type_table(object, nmemo, memo, acc);
++        break;
++    default:
++        throw smallfolk_exception("dump_object invalid or unhandled tag %i", object.typetag());
++        break;
++    }
++    return nmemo;
++}
++
++std::string Serializer::escape_quotes(const std::string & before, char quote)
++{
++    std::string after;
++    after.reserve(before.length() + 4);
++
++    for (std::string::size_type i = 0; i < before.length(); ++i)
++    {
++        if (before[i] == quote)
++            after += quote; // no break
++        else
++            after += before[i];
++    }
++
++    return after;
++}
++
++std::string Serializer::unescape_quotes(const std::string & before, char quote)
++{
++    std::string after;
++    after.reserve(before.length());
++
++    for (std::string::size_type i = 0; i < before.length(); ++i)
++    {
++        if (before[i] == quote)
++        {
++            if (i + 1 < before.length() && before[i + 1] == quote)
++                ++i;
++        }
++        else
++            after += before[i];
++    }
++
++    return after;
++}
++
++bool Serializer::nonzero_digit(char c)
++{
++    switch (c)
++    {
++    case '1':
++    case '2':
++    case '3':
++    case '4':
++    case '5':
++    case '6':
++    case '7':
++    case '8':
++    case '9':
++        return true;
++    }
++    return false;
++}
++
++bool Serializer::is_digit(char c)
++{
++    switch (c)
++    {
++    case '0':
++    case '1':
++    case '2':
++    case '3':
++    case '4':
++    case '5':
++    case '6':
++    case '7':
++    case '8':
++    case '9':
++        return true;
++    }
++    return false;
++}
++
++char Serializer::strat(std::string const & string, std::string::size_type i)
++{
++    if (i != std::string::npos &&
++        i < string.length())
++        return string.at(i);
++    return '\0'; // bad?
++}
++
++LuaVal Serializer::expect_number(std::string const & string, size_t & start)
++{
++    size_t i = start;
++    char head = strat(string, i);
++    if (head == '-')
++        head = strat(string, ++i);
++    if (nonzero_digit(head))
++    {
++        do
++        {
++            head = strat(string, ++i);
++        } while (is_digit(head));
++    }
++    else if (head == '0')
++        head = strat(string, ++i);
++    else
++        throw smallfolk_exception("expect_number at %u unexpected character %c", i, head);
++    if (head == '.')
++    {
++        size_t oldi = i;
++        do
++        {
++            head = strat(string, ++i);
++        } while (is_digit(head));
++        if (i == oldi + 1)
++            throw smallfolk_exception("expect_number at %u no numbers after decimal", i);
++    }
++    if (head == 'e' || head == 'E')
++    {
++        head = strat(string, ++i);
++        if (head == '+' || head == '-')
++            head = strat(string, ++i);
++        if (!is_digit(head))
++            throw smallfolk_exception("expect_number at %u not a digit part %c", i, head);
++        do
++        {
++            head = strat(string, ++i);
++        } while (is_digit(head));
++    }
++    size_t temp = start;
++    start = i;
++    return std::atof(string.substr(temp, i).c_str());
++}
++
++LuaVal Serializer::expect_object(std::string const & string, size_t & i, Serializer::TABLES & tables)
++{
++    static double _zero = 0.0;
++
++    char cc = strat(string, i++);
++    switch (cc)
++    {
++    case ' ':
++    case '\t':
++        // skip whitespace
++        return expect_object(string, i, tables);
++    case 't':
++        return true;
++    case 'f':
++        return false;
++    case 'n':
++        return LuaVal::nil;
++    case 'Q':
++        return -(0 / _zero);
++    case 'N':
++        return (0 / _zero);
++    case 'I':
++        return (1 / _zero);
++    case 'i':
++        return -(1 / _zero);
++    case '\'':
++    case '"':
++    {
++        size_t nexti = i - 1;
++        do
++        {
++            nexti = string.find(cc, nexti + 1);
++            if (nexti == std::string::npos)
++            {
++                throw smallfolk_exception("expect_object at %u was %c eof before string ends", i, cc);
++            }
++            ++nexti;
++        } while (strat(string, nexti) == cc);
++        size_t temp = i;
++        i = nexti;
++        return unescape_quotes(string.substr(temp, nexti - temp - 1), cc);
++    }
++    case '0':
++    case '1':
++    case '2':
++    case '3':
++    case '4':
++    case '5':
++    case '6':
++    case '7':
++    case '8':
++    case '9':
++    case '-':
++    case '.':
++        return expect_number(string, --i);
++    case '{':
++    {
++        LuaVal nt(TTABLE);
++        unsigned int j = 1;
++        tables.push_back(nt);
++        if (strat(string, i) == '}')
++        {
++            ++i;
++            return nt;
++        }
++        while (true)
++        {
++            LuaVal k = expect_object(string, i, tables);
++            char at = strat(string, i);
++            while (at == ' ')
++                at = strat(string, ++i);
++            if (at == ':')
++            {
++                nt.set(k, expect_object(string, ++i, tables));
++            }
++            else
++            {
++                nt.set(j, k);
++                ++j;
++            }
++            char head = strat(string, i);
++            while (head == ' ')
++                head = strat(string, ++i);
++            if (head == ',')
++                ++i;
++            else if (head == '}')
++            {
++                ++i;
++                return nt;
++            }
++            else
++            {
++                throw smallfolk_exception("expect_object at %u was %c unexpected character %c", i, cc, head);
++            }
++        }
++        break;
++    }
++    /*
++    case '@':
++    {
++    std::string::size_type x = i;
++    for (; x < string.length(); ++x)
++    {
++    if (!isdigit(string[x]))
++    break;
++    }
++    std::string substr = string.substr(i, x - i);
++    size_t index = std::stoul(substr.c_str());
++    if (index >= 1 && index <= tables.size())
++    {
++    i += substr.length();
++    return tables[index - 1];
++    }
++
++    throw smallfolk_exception("expect_object at %u was %c invalid index %u", i, cc, index);
++    break;
++    }
++    */
++    default:
++    {
++        throw smallfolk_exception("expect_object at %u was %c", i, cc);
++        break;
++    }
++    }
++    return LuaVal::nil;
++}
++
++smallfolk_exception::smallfolk_exception(const char * format, ...) : std::logic_error("Smallfolk exception")
++{
++    char buffer[size];
++    va_list args;
++    va_start(args, format);
++    vsnprintf(buffer, size, format, args);
++    errmsg = std::string("Smallfolk: ") + buffer;
++    va_end(args);
++}
++
++const char * smallfolk_exception::what() const throw()
++{
++    return errmsg.c_str();
++}
+diff --git a/deps/smallfolk_cpp/smallfolk.h b/deps/smallfolk_cpp/smallfolk.h
+new file mode 100644
+index 000000000..112c601e9
+--- /dev/null
++++ b/deps/smallfolk_cpp/smallfolk.h
+@@ -0,0 +1,297 @@
++#ifndef SMALLFOLK_H
++#define SMALLFOLK_H
++
++#include <string>
++#include <vector>
++#include <list>
++#include <deque>
++#include <set>
++#include <array>
++#include <forward_list>
++#include <unordered_map>
++#include <map>
++#include <memory> // std::unique_ptr
++#include <stdexcept> // std::logic_error
++#include <cstddef> // size_t
++#include <utility> // std::move
++
++class smallfolk_exception : public std::logic_error
++{
++public:
++    static size_t const size = 2048;
++
++    smallfolk_exception(const char * format, ...);
++    virtual const char* what() const throw();
++
++    std::string errmsg;
++};
++
++enum LuaTypeTag
++{
++    TNIL,
++    TSTRING,
++    TNUMBER,
++    TTABLE,
++    TBOOL,
++};
++
++class LuaVal;
++size_t LuaValHash(LuaVal const & v);
++
++namespace std {
++    template <>
++    struct hash<LuaVal> {
++    public:
++        size_t operator()(LuaVal const & v) const
++        {
++            return LuaValHash(v);
++        };
++    };
++}
++
++class LuaVal
++{
++public:
++
++    // static nil value, same as LuaVal(TNIL);
++    // You can use it as for example as default const reference
++    static LuaVal const nil;
++
++    // returns the string representation of the value info similar to lua tostring
++    std::string tostring() const;
++
++    // use as the hasher for containers, for example std::unordered_map<LuaVal, int, LuaVal::LuaValHasher>
++    struct LuaValHasher
++    {
++        size_t operator()(LuaVal const & v) const;
++    };
++
++    typedef std::unordered_map<LuaVal, LuaVal> LuaTable;
++    typedef std::unique_ptr<LuaTable> TblPtr; // circular reference memleak if insert self to self
++
++    LuaVal(const LuaTypeTag tag) : tag(tag), tbl_ptr(tag == TTABLE ? new LuaTable() : nullptr), d(0), b(false) {}
++    LuaVal() : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false) {}
++    LuaVal(const int d) : tag(TNUMBER), tbl_ptr(nullptr), d(d), b(false) {}
++    LuaVal(const unsigned int d) : tag(TNUMBER), tbl_ptr(nullptr), d(d), b(false) {}
++    LuaVal(const double d) : tag(TNUMBER), tbl_ptr(nullptr), d(d), b(false) {}
++    LuaVal(const std::string & s) : tag(TSTRING), tbl_ptr(nullptr), s(s), d(0), b(false) {}
++    LuaVal(const char * s) : tag(TSTRING), tbl_ptr(nullptr), s(s), d(0), b(false) {}
++    LuaVal(const bool b) : tag(TBOOL), tbl_ptr(nullptr), d(0), b(b) {}
++    LuaVal(LuaVal const & val) : tag(val.tag), tbl_ptr(val.tag == TTABLE ? val.tbl_ptr ? new LuaTable(*val.tbl_ptr) : new LuaTable() : nullptr), s(val.s), d(val.d), b(val.b) {}
++    LuaVal(LuaVal && val) noexcept : tag(std::move(val.tag)), tbl_ptr(std::move(val.tbl_ptr)), s(std::move(val.s)), d(std::move(val.d)), b(std::move(val.b)) {}
++    LuaVal(std::initializer_list<LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T> LuaVal(std::initializer_list<T> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    LuaVal(std::vector<LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T> LuaVal(std::vector<T> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    LuaVal(std::list<LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T> LuaVal(std::list<T> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<size_t C> LuaVal(std::array<LuaVal, C> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T, size_t C> LuaVal(std::array<T, C> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    LuaVal(std::deque<LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T> LuaVal(std::deque<T> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    LuaVal(std::forward_list<LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    template<typename T> LuaVal(std::forward_list<T> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeSequence(l);
++    }
++    LuaVal(std::map<LuaVal, LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeMap(l);
++    }
++    template<typename K, typename V> LuaVal(std::map<K, V> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeMap(l);
++    }
++    LuaVal(std::unordered_map<LuaVal, LuaVal> const & l) : tag(TTABLE), tbl_ptr(new LuaTable(l)), d(0), b(false)
++    {
++    }
++    template<typename K, typename V> LuaVal(std::unordered_map<K, V> const & l) : tag(TTABLE), tbl_ptr(new LuaTable()), d(0), b(false)
++    {
++        InitializeMap(l);
++    }
++    static LuaVal table() { return LuaVal(TTABLE); }
++    static LuaVal mrg(LuaVal const & l, LuaVal const & r)
++    {
++        LuaVal t = l;
++        for (auto const & v : r.tbl())
++            t[v.first] = v.second;
++        return t;
++    }
++    static LuaVal mrg(LuaVal&& l, LuaVal&& r) { return mrg(l, std::move(r)); }
++    static LuaVal mrg(LuaVal&& l, LuaVal const & r)
++    {
++        for (auto const & v : r.tbl())
++            l[v.first] = v.second;
++        return std::move(l);
++    }
++    static LuaVal mrg(LuaVal const & l, LuaVal&& r)
++    {
++        for (auto const & v : l.tbl())
++            r.setignore(v.first, v.second);
++        return std::move(r);
++    }
++
++    ~LuaVal() = default;
++
++    bool isstring() const { return tag == TSTRING; }
++    bool isnumber() const { return tag == TNUMBER; }
++    bool istable() const { return tag == TTABLE; }
++    bool isbool() const { return tag == TBOOL; }
++    bool isnil() const { return tag == TNIL; }
++
++    // gettable, adds key-nil pair if not existing
++    // nil key throws error
++    LuaVal & operator[](LuaVal const & k);
++    LuaVal const & operator[](LuaVal const & k) const;
++    // gettable
++    LuaVal const & get(LuaVal const & k) const;
++    // returns true if value was found with key
++    bool has(LuaVal const & k) const;
++    // settable, return self
++    LuaVal & set(LuaVal const & k, LuaVal const & v);
++    // settable ignore if exists, return self
++    LuaVal & setignore(LuaVal const & k, LuaVal const & v);
++    // erase, return self
++    LuaVal & rem(LuaVal const & k);
++    // table array size, not actual element count
++    unsigned int len() const;
++    // table.insert, return self
++    LuaVal & insert(LuaVal const & v, LuaVal const & pos = nil);
++    // table.remove, return self
++    LuaVal & remove(LuaVal const & pos = nil);
++
++    // get a number value
++    double num() const
++    {
++        if (!isnumber())
++            throw smallfolk_exception("using num on non number object");
++        return d;
++    }
++    // get a boolean value
++    bool boolean() const
++    {
++        if (!isbool())
++            throw smallfolk_exception("using boolean on non bool object");
++        return b;
++    }
++    // get a string value
++    std::string const & str() const
++    {
++        if (!isstring())
++            throw smallfolk_exception("using str on non string object");
++        return s;
++    }
++    // get a table value
++    LuaTable const & tbl() const
++    {
++        if (!istable())
++            throw smallfolk_exception("using tbl on non table object");
++        return *tbl_ptr;
++    }
++
++    // Returns a typetag, the internal identifier for each type
++    LuaTypeTag typetag() const { return tag; }
++    // Returns the LuaVal's type as a string
++    std::string type() const { return type(typetag()); }
++    // Returns the type tag's type as a string
++    static std::string type(LuaTypeTag tag);
++
++    // serializes the value into string
++    // errmsg is optional value to output error message to on failure
++    // returns empty string on error
++    std::string dumps(std::string* errmsg = nullptr) const;
++
++    // deserialize a string into a LuaVal
++    // string param is deserialized string
++    // errmsg is optional value to output error message to on failure
++    static LuaVal loads(std::string const & string, std::string* errmsg = nullptr);
++
++    bool operator==(LuaVal const& rhs) const;
++    bool operator!=(LuaVal const& rhs) const { return !(*this == rhs); }
++
++    // You can use !val to check for nil or false
++    explicit operator bool() const;
++
++    LuaVal& operator=(LuaVal const& val);
++    LuaVal& operator=(LuaVal && val)
++    {
++        tag = std::move(val.tag);
++        tbl_ptr = std::move(val.tbl_ptr);
++        s = std::move(val.s);
++        d = std::move(val.d);
++        b = std::move(val.b);
++        return *this;
++    }
++
++private:
++
++    template<typename T> void InitializeSequence(T const & l)
++    {
++        LuaTable & tbl = *tbl_ptr;
++        unsigned int i = 0;
++        for (auto const & v : l)
++        {
++            LuaVal vv(v);
++            if (vv.isnil())
++                ++i;
++            else
++                tbl[++i] = std::move(vv);
++        }
++    }
++
++    template<typename T> void InitializeMap(T const & l)
++    {
++        LuaTable & tbl = *tbl_ptr;
++        for (auto const & e : l)
++        {
++            LuaVal k(e.first);
++            LuaVal v(e.second);
++            if (!k.isnil() && !v.isnil())
++                tbl[std::move(k)] = std::move(v);
++        }
++    }
++
++    friend size_t LuaValHash(LuaVal const & v);
++
++    LuaTypeTag tag;
++    TblPtr tbl_ptr;
++    std::string s;
++    // int64_t i; // lua 5.3 support?
++    double d;
++    bool b;
++};
++
++#endif
+diff --git a/src/common/CMakeLists.txt b/src/common/CMakeLists.txt
+index 22c7d5fd7..5d8433a7f 100644
+--- a/src/common/CMakeLists.txt
++++ b/src/common/CMakeLists.txt
+@@ -74,7 +74,8 @@ target_link_libraries(common
+     threads
+     jemalloc
+     stdfs
+-    fmt)
++    fmt
++    smallfolk_cpp)
+ 
+ if (BUILD_APPLICATION_WORLDSERVER OR BUILD_TOOLS_MAPS)
+   target_link_libraries(common
+diff --git a/src/common/Logging/Log.cpp b/src/common/Logging/Log.cpp
+index cb58d80dd..7e6545ec6 100644
+--- a/src/common/Logging/Log.cpp
++++ b/src/common/Logging/Log.cpp
+@@ -239,6 +239,11 @@ void Log::_outCommand(std::string_view message, std::string_view param1)
+     write(std::make_unique<LogMessage>(LOG_LEVEL_INFO, "commands.gm", message, param1));
+ }
+ 
++void Log::_outAIOMessage(uint32 account, LogLevel level, std::string_view message)
++{
++    write(std::make_unique<LogMessage>(level, "AIO", message));
++}
++
+ void Log::write(std::unique_ptr<LogMessage>&& msg) const
+ {
+     Logger const* logger = GetLoggerByType(msg->type);
+diff --git a/src/common/Logging/Log.h b/src/common/Logging/Log.h
+index bf349227b..26bd451ae 100644
+--- a/src/common/Logging/Log.h
++++ b/src/common/Logging/Log.h
+@@ -84,6 +84,17 @@ public:
+         _outCommand(Acore::StringFormatFmt(fmt, std::forward<Args>(args)...), std::to_string(account));
+     }
+ 
++    template<typename... Args>
++    void outAIOMessage(uint32 account, LogLevel const level, std::string_view fmt, Args&&... args)
++    {
++        if (!ShouldLog("AIO", level))
++        {
++            return;
++        }
++
++        _outAIOMessage(account, level, Acore::StringFormatFmt(fmt, std::forward<Args>(args)...));
++    }
++
+     void SetRealmId(uint32 id);
+ 
+     template<class AppenderImpl>
+@@ -109,6 +120,7 @@ private:
+     void RegisterAppender(uint8 index, AppenderCreatorFn appenderCreateFn);
+     void _outMessage(std::string const& filter, LogLevel level, std::string_view message);
+     void _outCommand(std::string_view message, std::string_view param1);
++    void _outAIOMessage(uint32 account, LogLevel level, std::string_view message);
+ 
+     std::unordered_map<uint8, AppenderCreatorFn> appenderFactory;
+     std::unordered_map<uint8, std::unique_ptr<Appender>> appenders;
+diff --git a/src/server/apps/CMakeLists.txt b/src/server/apps/CMakeLists.txt
+index d30ff6dd1..8ca7087bd 100644
+--- a/src/server/apps/CMakeLists.txt
++++ b/src/server/apps/CMakeLists.txt
+@@ -182,6 +182,7 @@ foreach(APPLICATION_NAME ${APPLICATIONS_BUILD_LIST})
+     install(TARGETS ${APP_PROJECT_NAME} DESTINATION bin)
+   elseif (WIN32)
+     install(TARGETS ${APP_PROJECT_NAME} DESTINATION "${CMAKE_INSTALL_PREFIX}")
++    install(DIRECTORY extensions DESTINATION "${BIN_DIR}/lua_client_scripts/")
+   endif()
+ 
+   set(PATH_TO_PCH ${SOURCE_APP_PATH}/PrecompiledHeaders/${APPLICATION_NAME}PCH.h)
+diff --git a/src/server/apps/worldserver/worldserver.conf.dist b/src/server/apps/worldserver/worldserver.conf.dist
+index 576f80eba..8ae01ea8e 100644
+--- a/src/server/apps/worldserver/worldserver.conf.dist
++++ b/src/server/apps/worldserver/worldserver.conf.dist
+@@ -4122,3 +4122,35 @@ Metric.OverallStatusInterval = 1
+ 
+ #
+ ###################################################################################################
++
++###################################################################################################
++#
++# AIO settings
++#
++#    AIO.prefix
++#        Prefix string used for AIO addon messages
++#        Default: "AIO"
++#
++#    AIO.MaxParts
++#        Maximum number of parts a client can send to server
++#        Each part can have maximum 255 bytes
++#        Default: 4
++#
++#    AIO.ClientScriptPath
++#        Path to client lua scripts to send to the client
++#        Default: "lua_client_scripts"
++#
++#    AIO.Obfuscate (Not yet implemented)
++#        Whether to obfuscate before sending addon code
++#        Default: 1
++#
++#    AIO.Compress (Not yet implemented)
++#        Whether to compress before sending addon code
++#        Default: 1
++#
++
++AIO.Prefix = "AIO"
++AIO.MaxParts = 4
++AIO.ClientScriptPath = "lua_client_scripts"
++AIO.Obfuscate = 0
++AIO.Compress = 0
+\ No newline at end of file
+diff --git a/src/server/game/Chat/AIOMsg.cpp b/src/server/game/Chat/AIOMsg.cpp
+new file mode 100644
+index 000000000..099bc6f78
+--- /dev/null
++++ b/src/server/game/Chat/AIOMsg.cpp
+@@ -0,0 +1,102 @@
++#include "AIOMsg.h"
++#include "Player.h"
++
++AIOMsg::AIOMsg()
++    : _val(TTABLE)
++{ }
++
++AIOMsg& AIOMsg::Add(const LuaVal& scriptKey, const LuaVal& handlerKey, const LuaVal& a1, const LuaVal& a2, const LuaVal& a3, const LuaVal& a4, const LuaVal& a5, const LuaVal& a6)
++{
++    LuaVal block(TTABLE);
++    uint32 nArgs = 1;
++
++    block[1] = 0;
++    block[2] = scriptKey;
++    block[3] = handlerKey;
++
++    if (!a1.isnil())
++    {
++        block.insert(a1);
++        ++nArgs;
++    }
++    if (!a2.isnil())
++    {
++        block.insert(a2);
++        ++nArgs;
++    }
++    if (!a3.isnil())
++    {
++        block.insert(a3);
++        ++nArgs;
++    }
++    if (!a4.isnil())
++    {
++        block.insert(a4);
++        ++nArgs;
++    }
++    if (!a5.isnil())
++    {
++        block.insert(a5);
++        ++nArgs;
++    }
++    if (!a6.isnil())
++    {
++        block.insert(a6);
++        ++nArgs;
++    }
++
++    block[1] = nArgs;
++    _val.insert(block);
++    return *this;
++}
++
++AIOMsg& AIOMsg::AppendLast(const LuaVal& a1, const LuaVal& a2, const LuaVal& a3, const LuaVal& a4, const LuaVal& a5, const LuaVal& a6)
++{
++    unsigned int lastBlock = _val.len();
++    if (!lastBlock)
++    {
++        return *this;
++    }
++
++    LuaVal& block = _val[lastBlock];
++    LuaVal nArgsVal = block.get(1);
++    if (!nArgsVal.isnumber())
++    {
++        return *this;
++    }
++
++    unsigned int nArgs = nArgsVal.num();
++    if (!a1.isnil())
++    {
++        block.insert(a1);
++        ++nArgs;
++    }
++    if (!a2.isnil())
++    {
++        block.insert(a2);
++        ++nArgs;
++    }
++    if (!a3.isnil())
++    {
++        block.insert(a3);
++        ++nArgs;
++    }
++    if (!a4.isnil())
++    {
++        block.insert(a4);
++        ++nArgs;
++    }
++    if (!a5.isnil())
++    {
++        block.insert(a5);
++        ++nArgs;
++    }
++    if (!a6.isnil())
++    {
++        block.insert(a6);
++        ++nArgs;
++    }
++
++    block[1] = nArgs;
++    return *this;
++}
+diff --git a/src/server/game/Chat/AIOMsg.h b/src/server/game/Chat/AIOMsg.h
+new file mode 100644
+index 000000000..cef97dfcc
+--- /dev/null
++++ b/src/server/game/Chat/AIOMsg.h
+@@ -0,0 +1,42 @@
++#ifndef AIO_MESSAGE_H
++#define AIO_MESSAGE_H
++
++#include "smallfolk.h"
++
++class Player;
++
++class AIOMsg
++{
++public:
++    //Creates an empty AIOMsg
++    AIOMsg();
++
++    //Creates a AIO message and adds one block
++    AIOMsg(const LuaVal& scriptKey, const LuaVal& handlerKey,
++        const LuaVal& a1 = LuaVal::nil, const LuaVal& a2 = LuaVal::nil, const LuaVal& a3 = LuaVal::nil,
++        const LuaVal& a4 = LuaVal::nil, const LuaVal& a5 = LuaVal::nil, const LuaVal& a6 = LuaVal::nil)
++        : _val(TTABLE)
++    {
++        Add(scriptKey, handlerKey, a1, a2, a3, a4, a5);
++    }
++
++    //Adds another block
++    //Another block will call another handler in one message
++    AIOMsg& Add(const LuaVal& scriptKey, const LuaVal& handlerKey,
++        const LuaVal& a1 = LuaVal::nil, const LuaVal& a2 = LuaVal::nil, const LuaVal& a3 = LuaVal::nil,
++        const LuaVal& a4 = LuaVal::nil, const LuaVal& a5 = LuaVal::nil, const LuaVal& a6 = LuaVal::nil);
++
++    //Appends the last block
++    //You can add additional arguments to the last block
++    AIOMsg& AppendLast(const LuaVal& a1 = LuaVal::nil, const LuaVal& a2 = LuaVal::nil, const LuaVal& a3 = LuaVal::nil,
++        const LuaVal& a4 = LuaVal::nil, const LuaVal& a5 = LuaVal::nil, const LuaVal& a6 = LuaVal::nil);
++
++    //Returns smallfolk dump of the AIO message
++    std::string dumps() const { return _val.dumps(); }
++
++private:
++    LuaVal _val;
++    friend class Player;
++};
++
++#endif
+diff --git a/src/server/game/Entities/Player/Player.cpp b/src/server/game/Entities/Player/Player.cpp
+index 2109d1372..f86e2c413 100644
+--- a/src/server/game/Entities/Player/Player.cpp
++++ b/src/server/game/Entities/Player/Player.cpp
+@@ -88,6 +88,7 @@
+ #include "WorldSession.h"
+ #include "Tokenize.h"
+ #include "StringConvert.h"
++#include "AIOMsg.h"
+ 
+ // TODO: this import is not necessary for compilation and marked as unused by the IDE
+ //  however, for some reasons removing it would cause a damn linking issue
+@@ -408,6 +409,12 @@ Player::Player(WorldSession* session): Unit(true), m_mover(this)
+     m_isInstantFlightOn = true;
+ 
+     _wasOutdoor = true;
++
++    m_aioInitialized = false;
++    m_aioInitCd = false;
++    m_aioInitTimer = 0;
++    m_messageIdIndex = 1;
++
+     sScriptMgr->OnConstructPlayer(this);
+ }
+ 
+@@ -9318,6 +9325,93 @@ void Player::Whisper(std::string_view text, Language language, Player* target, b
+     }
+ }
+ 
++void Player::AIOMessage(AIOMsg& msg)
++{
++    SendSimpleAIOMessage(msg.dumps());
++}
++
++void Player::AIOHandle(const LuaVal& scriptKey, const LuaVal& handlerKey, const LuaVal& a1, const LuaVal& a2, const LuaVal& a3, const LuaVal& a4, const LuaVal& a5, const LuaVal& a6)
++{
++    AIOMsg msg(scriptKey, handlerKey, a1, a2, a3, a4, a5, a6);
++    SendSimpleAIOMessage(msg.dumps());
++}
++
++void Player::SendSimpleAIOMessage(const std::string& message)
++{
++    if (message.empty())
++    {
++        return;
++    }
++    std::string aioPrefix = sWorld->GetAIOPrefix();
++    size_t shortMsgLen = message.size() + aioPrefix.size() + 4; //+4 for S \t and 2 byte for message id
++
++    //If its a short message
++    if (shortMsgLen <= 2600)
++    {
++        std::string fullmsg = "S" + aioPrefix + "\t\x1\x1" + message;
++        WorldPacket data(SMSG_MESSAGECHAT, fullmsg.size() + 30);
++        data << uint8(CHAT_MSG_WHISPER);
++        data << int32(LANG_ADDON);
++        data << uint64(GetGUID().GetCounter());
++        data << uint32(0);
++        data << uint64(GetGUID().GetCounter());
++        data << uint32(fullmsg.size() + 1);
++        data << fullmsg;
++        data << uint8(0);
++        GetSession()->SendPacket(&data);
++        return;
++    }
++
++    //If its a long message
++    uint16 parts = std::ceilf(float(shortMsgLen + 4) / 2600);
++
++    //parts to string
++    uint16 high = std::floorf((float)parts / 254);
++    std::string partsStr(1, high + 1);
++    partsStr += parts - high * 254 + 1;
++
++    //messageid to string
++    high = std::floorf((float)m_messageIdIndex / 254);
++    std::string messageIdStr(1, high + 1);
++    messageIdStr += m_messageIdIndex - high * 254 + 1;
++
++    //Increase or renew messageIdIndex
++    if (m_messageIdIndex >= 64769) //2^16 - 767
++    {
++        m_messageIdIndex = 1;
++    }
++    else
++    {
++        ++m_messageIdIndex;
++    }
++
++    //Send in parts
++    size_t cursor = 0;
++    for (uint16 partId = 1; partId <= parts; ++partId)
++    {
++        //partid to string
++        high = std::floorf((float)partId / 254);
++        std::string partIdStr(1, high + 1);
++        partIdStr += partId - high * 254 + 1;
++
++        //send
++        std::string fullmsg = "S" + aioPrefix + "\t" + messageIdStr + partsStr + partIdStr;
++        fullmsg += message.substr(cursor, 2600);
++        WorldPacket data(SMSG_MESSAGECHAT, fullmsg.size() + 30);
++        data << uint8(CHAT_MSG_WHISPER);
++        data << int32(LANG_ADDON);
++        data << uint64(GetGUID().GetCounter());
++        data << uint32(0);
++        data << uint64(GetGUID().GetCounter());
++        data << uint32(fullmsg.size() + 1);
++        data << fullmsg;
++        data << uint8(0);
++        GetSession()->SendPacket(&data);
++
++        cursor += 2600;
++    }
++}
++
+ void Player::Whisper(uint32 textId, Player* target, bool /*isBossWhisper = false*/)
+ {
+     if (!target)
+diff --git a/src/server/game/Entities/Player/Player.h b/src/server/game/Entities/Player/Player.h
+index 2951bb669..5d173900e 100644
+--- a/src/server/game/Entities/Player/Player.h
++++ b/src/server/game/Entities/Player/Player.h
+@@ -42,6 +42,8 @@
+ #include "TradeData.h"
+ #include "Unit.h"
+ #include "WorldSession.h"
++#include "smallfolk.h"
++
+ #include <string>
+ #include <vector>
+ 
+@@ -64,6 +66,7 @@ class PlayerMenu;
+ class PlayerSocial;
+ class SpellCastTargets;
+ class UpdateMask;
++class AIOMsg;
+ 
+ typedef std::deque<Mail*> PlayerMails;
+ typedef void(*bgZoneRef)(Battleground*, WorldPacket&);
+@@ -1202,6 +1205,40 @@ public:
+     void Whisper(std::string_view text, Language language, Player* receiver, bool = false) override;
+     void Whisper(uint32 textId, Player* target, bool isBossWhisper = false) override;
+ 
++    //Returns whether AIO client has been initialized
++    bool AIOInitialized() const { return m_aioInitialized; }
++
++    // Sends an AIO message to the player
++    // See: class AIOMsg
++    void AIOMessage(AIOMsg& msg);
++
++    // Triggers an AIO handler on the client
++    // To trigger multiple handlers in one message or to send more
++    // arguments use Player::AIOMessage
++    void AIOHandle(const LuaVal& scriptKey, const LuaVal& handlerKey,
++        const LuaVal& a1 = LuaVal::nil, const LuaVal& a2 = LuaVal::nil, const LuaVal& a3 = LuaVal::nil,
++        const LuaVal& a4 = LuaVal::nil, const LuaVal& a5 = LuaVal::nil, const LuaVal& a6 = LuaVal::nil);
++
++    // AIO can only understand smallfolk LuaVal::dumps() format
++    // Handler functions are called by creating a table as below
++    // {
++    //     {n, ScriptName, HandlerName(optional), Arg1..N(optional) },
++    //     {n, AnotherScriptName, AnotherHandlerName(optional), Arg1..N(optional) }
++    // }
++    // Where n is number of arguments including handler name as an argument
++    void SendSimpleAIOMessage(const std::string& message);
++
++    // Forces reload on the player AIO addons
++    // Syncs player AIO addons with server
++    void ForceReloadAddons() { AIOHandle("AIO", "ForceReload"); }
++
++    // Force reset on the player AIO addons
++    // Player AIO addons and addon data is deleted and downloaded again
++    void ForceResetAddons() { AIOHandle("AIO", "ForceReset"); }
++
++    bool isAIOInitOnCooldown() const { return m_aioInitCd; }
++    void setAIOIntOnCooldown(bool cd) { m_aioInitCd = cd; m_aioInitTimer = 0; }
++
+     /*********************************************************/
+     /***                    STORAGE SYSTEM                 ***/
+     /*********************************************************/
+@@ -2922,6 +2959,13 @@ private:
+ 
+     uint32 _activeCheats;
+ 
++    bool m_aioInitialized;
++    bool m_aioInitCd;
++    uint32 m_aioInitTimer;
++    uint16 m_messageIdIndex;
++
++    friend class AIOHandlers;
++
+     // duel health and mana reset attributes
+     uint32 healthBeforeDuel;
+     uint32 manaBeforeDuel;
+diff --git a/src/server/game/Entities/Player/PlayerUpdates.cpp b/src/server/game/Entities/Player/PlayerUpdates.cpp
+index c6661c13b..f04e1b1f0 100644
+--- a/src/server/game/Entities/Player/PlayerUpdates.cpp
++++ b/src/server/game/Entities/Player/PlayerUpdates.cpp
+@@ -420,6 +420,17 @@ void Player::Update(uint32 p_time)
+         m_delayed_unit_relocation_timer = 0;
+         RemoveFromNotify(NOTIFY_VISIBILITY_CHANGED);
+     }
++
++    //AIO Init cooldown
++    if (m_aioInitCd)
++    {
++        m_aioInitTimer += p_time;
++        if (m_aioInitTimer >= 5000)
++        {
++            m_aioInitCd = false;
++            m_aioInitTimer = 0;
++        }
++    }
+ }
+ 
+ void Player::UpdateMirrorTimers()
+diff --git a/src/server/game/Handlers/ChatHandler.cpp b/src/server/game/Handlers/ChatHandler.cpp
+index 3d1af0d8b..e72f435c5 100644
+--- a/src/server/game/Handlers/ChatHandler.cpp
++++ b/src/server/game/Handlers/ChatHandler.cpp
+@@ -382,6 +382,109 @@ void WorldSession::HandleMessagechatOpcode(WorldPacket& recvData)
+                 Player* receiver = ObjectAccessor::FindPlayerByName(to, false);
+                 bool senderIsPlayer = AccountMgr::IsPlayerAccount(GetSecurity());
+                 bool receiverIsPlayer = AccountMgr::IsPlayerAccount(receiver ? receiver->GetSession()->GetSecurity() : SEC_PLAYER);
++
++                //AIO
++                size_t delimPos;
++                if (lang == LANG_ADDON && receiver)
++                {
++                    std::string prefix;
++                    bool isAIOMessage = false;
++                    delimPos = msg.find('\t');
++
++                    if (delimPos != std::string::npos)
++                    {
++                        prefix = msg.substr(0, delimPos);
++                        if (prefix == "C" + sWorld->GetAIOPrefix())
++                        {
++                            isAIOMessage = true;
++                        }
++                    }
++
++                    if (isAIOMessage)
++                    {
++                        if (receiver != sender)
++                        {
++                            return;
++                        }
++
++                        //Must have meta data
++                        uint16 messageId;
++                        if ((msg.size() - delimPos - 1) >= 2)
++                        {
++                            messageId = (msg[delimPos + 1] - 1) * 254 + msg[delimPos + 2] - 1;
++
++                            //If its a short message
++                            if (messageId == 0) //messageId = 0
++                            {
++                                sScriptMgr->OnAddonMessage(sender, msg.substr(delimPos + 3));
++                                break;
++                            }
++                        }
++                        //Its a long message
++                        if ((msg.size() - delimPos - 1) >= 6)
++                        {
++                            uint32 parts = (msg[delimPos + 3] - 1) * 254 + msg[delimPos + 4] - 1;
++                            if (parts < 2)
++                            {
++                                sLog->outAIOMessage(sender->GetGUID().GetCounter(), LOG_LEVEL_ERROR, "HandleAddonMessagechatOpcode: Received AIO addon message with number of parts: %u (< 2). Message Id: %u, Sender: %s", parts, messageId, sender->GetName().c_str());
++                                return;
++                            }
++                            uint32 maxparts = sWorld->getIntConfig(CONFIG_AIO_MAXPARTS);
++                            if (parts > maxparts)
++                            {
++                                sLog->outAIOMessage(sender->GetGUID().GetCounter(), LOG_LEVEL_ERROR, "HandleAddonMessagechatOpcode: Received AIO addon message with too many parts: %u (> %u). Message Id: %u, Sender: %s", parts, maxparts, messageId, sender->GetName().c_str());
++                                return;
++                            }
++
++                            uint32 partId = (msg[delimPos + 5] - 1) * 254 + msg[delimPos + 6] - 1;
++
++                            //Check if message exists
++                            AddonMessageBufferMap::iterator messagePartsItr = _addonMessageBuffer.find(messageId);
++                            if (messagePartsItr == _addonMessageBuffer.end())
++                            {
++                                messagePartsItr = _addonMessageBuffer.insert(std::make_pair(messageId, LongMessageBufferInfo())).first;
++                            }
++                            else
++                            {
++                                //If message already exist and has different number of parts remove it
++                                if (parts != messagePartsItr->second.Parts)
++                                {
++                                    messagePartsItr->second = LongMessageBufferInfo();
++                                }
++                            }
++
++                            messagePartsItr->second.Parts = parts;
++                            messagePartsItr->second.Map[partId] = msg.substr(delimPos + 7);
++
++                            //If there are enough parts
++                            if (messagePartsItr->second.Map.size() >= messagePartsItr->second.Parts)
++                            {
++                                //Assemble the parts
++                                std::string actualAIOMessage;
++                                for (AddonPartStringMap::const_iterator itr = messagePartsItr->second.Map.begin();
++                                    itr != messagePartsItr->second.Map.end();
++                                    ++itr)
++                                {
++                                    actualAIOMessage += itr->second;
++                                }
++
++                                sScriptMgr->OnAddonMessage(sender, actualAIOMessage);
++                                _addonMessageBuffer.erase(messagePartsItr);
++                                break;
++                            }
++                            else //Or else wait for other packets to arrive
++                            {
++                                break;
++                            }
++                        }
++                        else
++                        {
++                            sLog->outAIOMessage(sender->GetGUID().GetCounter(), LOG_LEVEL_ERROR, "HandleAddonMessagechatOpcode: Received AIO long addon message without meta data, Sender: %s", sender->GetName().c_str());
++                            break;
++                        }
++                    }
++                }
++
+                 if (!receiver || (senderIsPlayer && !receiverIsPlayer && !receiver->isAcceptWhispers() && !receiver->IsInWhisperWhiteList(sender->GetGUID())))
+                 {
+                     SendPlayerNotFoundNotice(to);
+diff --git a/src/server/game/Miscellaneous/Language.h b/src/server/game/Miscellaneous/Language.h
+index 587abd97c..54d84ccdb 100644
+--- a/src/server/game/Miscellaneous/Language.h
++++ b/src/server/game/Miscellaneous/Language.h
+@@ -1333,6 +1333,12 @@ enum AcoreStrings
+     // 30087-30095 reserved for passive anticheat
+ 
+     LANG_DEBUG_LFG_ON                             = 30096,
+-    LANG_DEBUG_LFG_OFF                            = 30097
++    LANG_DEBUG_LFG_OFF                            = 30097,
++
++    LANG_CAIO_FORCERELOAD_SENT                    = 60002,
++    LANG_CAIO_FORCERESET_SENT                     = 60003,
++    LANG_CAIO_RELOADADDONS_ERROR                  = 60004,
++    LANG_CAIO_ADDADDON_ERROR                      = 60005,
++    LANG_CAIO_REMOVEADDON_ERROR                   = 60006,
+ };
+ #endif
+diff --git a/src/server/game/Scripting/ScriptMgr.cpp b/src/server/game/Scripting/ScriptMgr.cpp
+index 244364cc3..ace933705 100644
+--- a/src/server/game/Scripting/ScriptMgr.cpp
++++ b/src/server/game/Scripting/ScriptMgr.cpp
+@@ -21,6 +21,7 @@
+ #include "SmartAI.h"
+ #include "SpellMgr.h"
+ #include "UnitAI.h"
++#include "smallfolk.h"
+ 
+ namespace
+ {
+@@ -46,7 +47,8 @@ ScriptMgr::ScriptMgr()
+     : _scriptCount(0),
+     _scheduledScripts(0),
+     _script_loader_callback(nullptr),
+-    _modules_loader_callback(nullptr) { }
++    _modules_loader_callback(nullptr),
++    _aioHandlers(0) { }
+ 
+ ScriptMgr::~ScriptMgr() { }
+ 
+@@ -61,6 +63,8 @@ void ScriptMgr::Initialize()
+     LOG_INFO("server.loading", "> Loading C++ scripts");
+     LOG_INFO("server.loading", " ");
+ 
++    _aioHandlers = new AIOHandlers();
++
+     AddSC_SmartScripts();
+ 
+     ASSERT(_script_loader_callback,
+@@ -121,6 +125,7 @@ void ScriptMgr::Unload()
+     SCR_CLEAR<WorldMapScript>();
+     SCR_CLEAR<WorldObjectScript>();
+     SCR_CLEAR<WorldScript>();
++    SCR_CLEAR<AIOScript>();
+ 
+     delete[] SpellSummary;
+ }
+@@ -596,6 +601,195 @@ AllGameObjectScript::AllGameObjectScript(const char* name) : ScriptObject(name)
+     ScriptRegistry<AllGameObjectScript>::AddScript(this);
+ }
+ 
++AIOScript::AIOScriptByKeyMap AIOScript::_scriptByKeyMap = AIOScript::AIOScriptByKeyMap();
++
++void ScriptMgr::OnAddonMessage(Player* sender, const std::string& message)
++{
++    if (!sender)
++        return;
++
++    LuaVal mainTable = LuaVal::loads(message);
++    if (!mainTable.istable()) //Unable to parse or incorrect format
++        return;
++
++    //Call handlers from all blocks in order
++    for (size_t i = 1; i <= mainTable.tbl().size(); ++i)
++    {
++        LuaVal& block = mainTable[1];
++        if (!block.istable())
++            continue;
++
++        LuaVal& scriptKeyVal = block[2];
++        LuaVal& handlerKeyVal = block[3];
++        if (!block[1].isnumber() || scriptKeyVal.isnil() || handlerKeyVal.isnil())
++            continue;
++
++        if (AIOScript* aioScript = _aioHandlers->GetScript<AIOScript>(scriptKeyVal))
++            aioScript->OnHandle(sender, handlerKeyVal, block);
++    }
++}
++
++AIOScript::AIOScript(const LuaVal& scriptKey)
++    : ScriptObject(scriptKey.tostring().c_str()), _key(scriptKey)
++{
++    if (AIOScript::_scriptByKeyMap.find(scriptKey) != AIOScript::_scriptByKeyMap.end())
++    {
++        sLog->outAIOMessage(0, LOG_LEVEL_FATAL, "AIO scriptKey '%s' of type tag '%i' already exist. Use another key.", scriptKey.tostring().c_str(), scriptKey.typetag());
++        ASSERT(false);
++    }
++    ScriptRegistry<AIOScript>::AddScript(this);
++    AIOScript::_scriptByKeyMap[scriptKey] = this;
++}
++
++void AIOScript::AddInitArgs(const LuaVal& scriptKey, const LuaVal& handlerKey, ArgFunc a1, ArgFunc a2, ArgFunc a3, ArgFunc a4, ArgFunc a5, ArgFunc a6)
++{
++    AIOHandlers* handler = sScriptMgr->_aioHandlers;
++    if (!handler)
++        return;
++
++    //Look for hook
++    std::list<ArgFunc>* list = 0;
++    for (AIOHandlers::HookListType::iterator itr = handler->_initHookList.begin();
++        itr != handler->_initHookList.end();
++        ++itr)
++    {
++        if (itr->scriptKey == scriptKey && itr->handlerKey == handlerKey)
++        {
++            list = &itr->argsList;
++            break;
++        }
++    }
++
++    //Add hook
++    if (!list)
++    {
++        handler->_initHookList.push_back(AIOHandlers::InitHookInfo(scriptKey, handlerKey));
++        list = &handler->_initHookList.back().argsList;
++    }
++
++    //Add args
++    if (a1)
++        list->push_back(a1);
++    if (a2)
++        list->push_back(a2);
++    if (a3)
++        list->push_back(a3);
++    if (a4)
++        list->push_back(a4);
++    if (a5)
++        list->push_back(a5);
++    if (a6)
++        list->push_back(a6);
++}
++
++template<>
++AIOScript* AIOScript::GetScript(const LuaVal& scriptKey)
++{
++    AIOScriptByKeyMap::const_iterator itr = AIOScript::_scriptByKeyMap.find(scriptKey);
++    if (itr == AIOScript::_scriptByKeyMap.end())
++        return 0;
++
++    return itr->second;
++}
++
++template<class ScriptClass>
++ScriptClass* AIOScript::GetScript(const LuaVal& scriptKey)
++{
++    AIOScriptByKeyMap::const_iterator itr = AIOScript::_scriptByKeyMap.find(scriptKey);
++    if (itr == AIOScript::_scriptByKeyMap.end())
++        return 0;
++
++    return dynamic_cast<ScriptClass*>(itr->second);
++}
++
++void AIOScript::OnHandle(Player* sender, const LuaVal& handlerKey, const LuaVal& args)
++{
++    HandlerMapType::const_iterator itr = _handlerMap.find(handlerKey);
++    if (itr != _handlerMap.end())
++    {
++        itr->second(sender, args); //Call the handler function
++    }
++}
++
++AIOHandlers::AIOHandlers()
++    : AIOScript("AIO")
++{
++    AddHandler("Init", std::bind(&AIOHandlers::HandleInit, this, std::placeholders::_1, std::placeholders::_2));
++    AddHandler("Error", std::bind(&AIOHandlers::HandleError, this, std::placeholders::_1, std::placeholders::_2));
++}
++
++void AIOHandlers::HandleInit(Player* sender, const LuaVal& args)
++{
++    //Init hasn't cooled down
++    if (sender->isAIOInitOnCooldown())
++        return;
++
++    sender->setAIOIntOnCooldown(true);
++    const LuaVal& versionVal = args[4];
++    const LuaVal& clientDataVal = args[5];
++    if (!versionVal.isnumber() || !clientDataVal.istable())
++    {
++        sLog->outAIOMessage(sender->GetGUID().GetCounter(), LOG_LEVEL_ERROR, "AIOHandlers::HandleInit: Invalid version value or clientData value. Sender: %s, Args: %s", sender->GetName().c_str(), args.dumps().c_str());
++        return;
++    }
++
++    if (versionVal.num() != AIO_VERSION)
++    {
++        sender->AIOHandle("AIO", "Init", AIO_VERSION);
++        return;
++    }
++
++    LuaVal addonTable(TTABLE);
++    LuaVal cacheTable(TTABLE);
++    uint32 nAddons = sWorld->PrepareClientAddons(clientDataVal, addonTable, cacheTable, sender);
++
++    LuaVal argsToSend(TTABLE);
++
++    uint32 blockIndex = 1;
++    for (HookListType::const_iterator itr = _initHookList.begin();
++        itr != _initHookList.end();
++        ++itr)
++    {
++        uint32 index = 3;
++        LuaVal HookBlock(TTABLE);
++
++        HookBlock[1] = (uint32)itr->argsList.size() + 1;
++        HookBlock[2] = itr->scriptKey;
++        HookBlock[3] = itr->handlerKey;
++        for (std::list<ArgFunc>::const_iterator it = itr->argsList.begin();
++            it != itr->argsList.end();
++            ++it)
++        {
++            HookBlock[++index] = (*it)(sender);
++        }
++
++        argsToSend[++blockIndex] = HookBlock;
++    }
++
++    LuaVal AIOInitBlock(TTABLE);
++    AIOInitBlock[1] = 5;
++    AIOInitBlock[2] = "AIO";
++    AIOInitBlock[3] = "Init";
++    AIOInitBlock[4] = AIO_VERSION;
++    AIOInitBlock[5] = nAddons;
++    AIOInitBlock[6] = addonTable;
++    AIOInitBlock[7] = cacheTable;
++
++    argsToSend[1] = AIOInitBlock;
++    sender->SendSimpleAIOMessage(argsToSend.dumps());
++
++    sender->m_aioInitialized = true;
++}
++
++void AIOHandlers::HandleError(Player* sender, const LuaVal& args)
++{
++    const LuaVal& msgVal = args[4];
++    if (!msgVal.isstring())
++        return;
++
++    sLog->outAIOMessage(sender->GetGUID().GetCounter(), LOG_LEVEL_ERROR, "%s Received client addon error: %s", sender->GetSession()->GetPlayerInfo().c_str(), msgVal.str().c_str());
++}
++
+ // Specialize for each script type class like so:
+ template class AC_GAME_API ScriptRegistry<AccountScript>;
+ template class AC_GAME_API ScriptRegistry<AchievementCriteriaScript>;
+@@ -643,3 +837,4 @@ template class AC_GAME_API ScriptRegistry<WeatherScript>;
+ template class AC_GAME_API ScriptRegistry<WorldMapScript>;
+ template class AC_GAME_API ScriptRegistry<WorldObjectScript>;
+ template class AC_GAME_API ScriptRegistry<WorldScript>;
++template class AC_GAME_API ScriptRegistry<AIOScript>;
+diff --git a/src/server/game/Scripting/ScriptMgr.h b/src/server/game/Scripting/ScriptMgr.h
+index 8c30b28d8..7960f74ca 100644
+--- a/src/server/game/Scripting/ScriptMgr.h
++++ b/src/server/game/Scripting/ScriptMgr.h
+@@ -2030,10 +2030,181 @@ public:
+     [[nodiscard]] virtual bool CanAreaTrigger(Player* /*player*/, AreaTrigger const* /*trigger*/) { return false; }
+ };
+ 
++// ##################### Abstract AIO handler script #####################
++// Inherit AIOScript to make an AIO handler script
++//
++// See smallfork_cpp at https://github.com/Rochet2/smallfolk_cpp for
++// reference on how to use LuaVal
++//
++// Example of use:
++//
++// class ExampleAIOScript : public AIOScript
++// {
++// public:
++// 	ExampleAIOScript()
++// 		: AIOScript("ExampleScriptName")
++// 	{
++// 		using namespace std::placeholders;
++//
++// 		// Loads addon files to addons list and sends them on AIO client initialization
++// 		// Looks for the file in path config AIO.ClientScriptPath
++// 		AddAddon(World::AIOAddon("ExampleAddon", "example_addon.lua"));
++//
++// 		// You can also add addons to be sent to players with specific permission
++// 		AddAddon(World::AIOAddon("AnotherAddon", "example_addon.lua", 192)); //192 refers to admin RBAC permission
++//
++// 		// Handler function signature: void HandlerFunction(Player *sender, const LuaVal &args)
++// 		AddHandler("Print", std::bind(&ExampleAIOScript::HandlePrint, this, _1, _2));
++// 		AddHandler("Save", std::bind(&ExampleAIOScript::HandleSave, this, _1, _2));
++//
++// 		// Initialization handler and arguments
++// 		AddInitArgs("ExampleScriptName", "Init", std::bind(&ExampleAIOScript::InitArg, this, _1), std::bind(&ExampleAIOScript::InitArg, this, _1));
++// 		//Adds additional argument to send to handler
++// 		AddInitArgs("ExampleScriptName", "Init", std::bind(&ExampleAIOScript::InitArg2, this, _1));
++// 		AddInitArgs("AnotherScript", "InitB"); //Arguments are not necessary
++// 	}
++//
++// 	void HandlePrint(Player *sender, const LuaVal &args)
++// 	{
++// 	    //LuaVal args in a handler function is always a table
++// 		//Handler arguments index starts from 4
++// 		LuaVal &InputVal = args[4];
++// 		LuaVal &SliderVal = args[5];
++//
++// 		//MUST check if the value type is valid or else smallfolk_cpp will
++// 		//throw on obtaining that type
++// 		if(!InputVal.isstring() || !SliderVal.isnumber())
++// 		{
++// 			return;
++// 		}
++//
++// 		sender->GetSession()->SendNotification("HandlePrint -> Stored String: %s, Input: %s, Slider Value: %f",
++// 			storedString.c_str(), InputVal.str().c_str(), SliderVal.num());
++// 	}
++//
++// 	void HandleSave(Player *sender, const LuaVal &args)
++// 	{
++// 	    //LuaVal args in a handler function is always a table
++// 		//Handler arguments index starts from 4
++// 		LuaVal &SaveVal = args.get[4];
++//
++// 		//MUST check if the value type is valid
++// 		if(!SaveVal.isstring())
++// 		{
++// 			return;
++// 		}
++//
++// 		storedString = SaveVal.str();
++// 		sender->GetSession()->SendNotification("Saved");
++// 	}
++//
++// 	LuaVal InitArg(Player *sender)
++// 	{
++// 		LuaVal arg = LuaVal(TTABLE);
++// 		arg.set("key", 12.3);
++// 		arg["key2"] = false;
++//
++// 		return arg;
++// 	}
++//
++// 	LuaVal InitArg2(Player *sender)
++// 	{
++// 		return "LuaVal will implicitly create a string LuaVal for this arg";
++// 	}
++//
++// private:
++// 	std::string storedString;
++// };
++class AIOScript : public ScriptObject
++{
++public:
++    virtual ~AIOScript() { AIOScript::_scriptByKeyMap.erase(GetKey()); }
++
++    // Returns the key of this CAIO script
++    LuaVal GetKey() const { return _key; }
++    bool IsDatabaseBound() const { return false; }
++
++    typedef std::function<void(Player*, const LuaVal&)> HandlerFunc;
++    typedef std::function<LuaVal(Player*)> ArgFunc;
++
++protected:
++    // Registers an AIO Handler script of scriptName
++    AIOScript(const LuaVal& scriptKey);
++
++    // Registers a handler function to call when handling
++    // handleKey of this script.
++    void AddHandler(const LuaVal& handlerKey, HandlerFunc function) { _handlerMap[handlerKey] = function; }
++
++    // Adds a client side handler to call and adds arguments
++    // to sends with it for AIO client initialization.
++    //
++    // You can add additional arguments to the handler by
++    // calling this function again
++    void AddInitArgs(const LuaVal& scriptKey, const LuaVal& handlerKey,
++        ArgFunc a1 = ArgFunc(), ArgFunc a2 = ArgFunc(), ArgFunc a3 = ArgFunc(),
++        ArgFunc a4 = ArgFunc(), ArgFunc a5 = ArgFunc(), ArgFunc a6 = ArgFunc());
++
++    // Adds a WoW addon file to the list of addons with a unique
++    // addon key to send on AIO client initialization.
++    // Returns true if addon was added, false if addon key is taken.
++    //
++    // It is required to call World::ForceReloadPlayerAddons()
++    // if addons are added after server is fully initialized
++    // for online players to load the added addons.
++    bool AddAddon(const AIOAddon& addon) { return sWorld->AddAddon(addon); }
++
++    // Returns pointer to an AIO script by its key and typename.
++    // Returns null if scriptName doesn't exist or typename was incorrect.
++    template<class ScriptClass>
++    ScriptClass* GetScript(const LuaVal& key);
++
++    template<>
++    AIOScript* GetScript(const LuaVal& key);
++
++private:
++    void OnHandle(Player* sender, const LuaVal& handlerKey, const LuaVal& args);
++
++    LuaVal _key;
++
++    typedef std::unordered_map<LuaVal, HandlerFunc, LuaVal::LuaValHasher> HandlerMapType;
++    HandlerMapType _handlerMap;
++
++    typedef std::unordered_map<LuaVal, AIOScript*, LuaVal::LuaValHasher> AIOScriptByKeyMap;
++    static AIOScriptByKeyMap _scriptByKeyMap;
++
++    friend class ScriptMgr;
++};
++
++class AIOHandlers : public AIOScript
++{
++private:
++    AIOHandlers();
++    void HandleInit(Player* sender, const LuaVal& args);
++    void HandleError(Player* sender, const LuaVal& args);
++
++    struct InitHookInfo
++    {
++        LuaVal scriptKey;
++        LuaVal handlerKey;
++        std::list<AIOScript::ArgFunc> argsList;
++
++        InitHookInfo(const LuaVal& scriptKey, const LuaVal& handlerKey)
++            : scriptKey(scriptKey), handlerKey(handlerKey)
++        { }
++    };
++
++    typedef std::list<InitHookInfo> HookListType;
++    HookListType _initHookList;
++
++    friend class ScriptMgr;
++    friend class AIOScript;
++};
++
+ // Manages registration, loading, and execution of scripts.
+ class ScriptMgr
+ {
+     friend class ScriptObject;
++    friend class AIOScript;
+ 
+ private:
+     ScriptMgr();
+@@ -2434,6 +2605,9 @@ public: /* Scheduled scripts */
+     uint32 DecreaseScheduledScriptCount(size_t count) { return _scheduledScripts -= count; }
+     bool IsScriptScheduled() const { return _scheduledScripts > 0; }
+ 
++public: /* AIOScript */
++    void OnAddonMessage(Player* sender, const std::string& message);
++
+ public: /* UnitScript */
+     void OnHeal(Unit* healer, Unit* reciever, uint32& gain);
+     void OnDamage(Unit* attacker, Unit* victim, uint32& damage);
+@@ -2593,6 +2767,7 @@ public: /* LootScript */
+ 
+ private:
+     uint32 _scriptCount;
++    AIOHandlers* _aioHandlers;
+ 
+     //atomic op counter for active scripts amount
+     std::atomic<long> _scheduledScripts;
+diff --git a/src/server/game/Server/WorldSession.cpp b/src/server/game/Server/WorldSession.cpp
+index 551239007..6daa9cb28 100644
+--- a/src/server/game/Server/WorldSession.cpp
++++ b/src/server/game/Server/WorldSession.cpp
+@@ -496,6 +496,24 @@ bool WorldSession::Update(uint32 diff, PacketFilter& updater)
+         }
+     }
+ 
++    //AIO clear long message buffer
++    if (m_Socket && m_Socket->IsOpen())
++    {
++        for (AddonMessageBufferMap::iterator itr = _addonMessageBuffer.begin();
++            itr != _addonMessageBuffer.end();)
++        {
++            itr->second.Timer += diff;
++            if (itr->second.Timer >= 30000)
++            {
++                _addonMessageBuffer.erase(itr++);
++            }
++            else
++            {
++                ++itr;
++            }
++        }
++    }
++
+     return true;
+ }
+ 
+@@ -712,6 +730,9 @@ void WorldSession::LogoutPlayer(bool save)
+         CharacterDatabase.Execute(stmt);
+     }
+ 
++    //Clear aio long message buffer
++    _addonMessageBuffer.clear();
++
+     m_playerLogout = false;
+     m_playerSave = false;
+     SetLogoutStartTime(0);
+diff --git a/src/server/game/Server/WorldSession.h b/src/server/game/Server/WorldSession.h
+index d4a0478b1..9ef8c5be0 100644
+--- a/src/server/game/Server/WorldSession.h
++++ b/src/server/game/Server/WorldSession.h
+@@ -1191,6 +1191,21 @@ private:
+ 
+     WorldSession(WorldSession const& right) = delete;
+     WorldSession& operator=(WorldSession const& right) = delete;
++
++    //AIO
++    typedef std::map<uint32, std::string> AddonPartStringMap;
++    struct LongMessageBufferInfo
++    {
++        uint32 Parts;
++        uint32 Timer;
++        AddonPartStringMap Map;
++
++        LongMessageBufferInfo()
++            : Parts(0), Timer(0)
++        { }
++    };
++    typedef std::map<uint16, LongMessageBufferInfo> AddonMessageBufferMap;
++    AddonMessageBufferMap _addonMessageBuffer;
+ };
+ #endif
+ /// @}
+diff --git a/src/server/game/World/IWorld.h b/src/server/game/World/IWorld.h
+index 47d6e34ab..e76cd44b6 100644
+--- a/src/server/game/World/IWorld.h
++++ b/src/server/game/World/IWorld.h
+@@ -24,6 +24,9 @@
+ #include "ObjectGuid.h"
+ #include "QueryResult.h"
+ #include "SharedDefines.h"
++#include "smallfolk.h"
++#include "AIOMsg.h"
++
+ #include <atomic>
+ #include <list>
+ #include <map>
+@@ -34,6 +37,23 @@ class WorldPacket;
+ class WorldSession;
+ class Player;
+ 
++struct AIOAddon
++{
++    std::string name;
++    std::string code;
++    std::string file;
++    uint32 crc;
++    AccountTypes accountType;
++
++    // AIOAddon container constructor
++    AIOAddon(const std::string& addonName, const std::string& addonFile, const AccountTypes type = SEC_PLAYER)
++        : name(addonName)
++        , file(addonFile)
++        , accountType(type)
++        , crc(0)
++    {}
++};
++
+ /// Storage class for commands issued for delayed execution
+ struct AC_GAME_API CliCommandHolder
+ {
+@@ -179,6 +199,8 @@ enum WorldBoolConfigs
+     CONFIG_OBJECT_SPARKLES,
+     CONFIG_LOW_LEVEL_REGEN_BOOST,
+     CONFIG_OBJECT_QUEST_MARKERS,
++    CONFIG_AIO_OBFUSCATE,
++    CONFIG_AIO_COMPRESS,
+     BOOL_CONFIG_VALUE_COUNT
+ };
+ 
+@@ -409,6 +431,7 @@ enum WorldIntConfigs
+     CONFIG_LFG_KICK_PREVENTION_TIMER,
+     CONFIG_CHANGE_FACTION_MAX_MONEY,
+     CONFIG_WATER_BREATH_TIMER,
++    CONFIG_AIO_MAXPARTS,
+     INT_CONFIG_VALUE_COUNT
+ };
+ 
+@@ -601,6 +624,17 @@ public:
+     [[nodiscard]] virtual std::string const& GetRealmName() const = 0;
+     virtual void SetRealmName(std::string name) = 0;
+     virtual void RemoveOldCorpses() = 0;
++    // CAIO
++    [[nodiscard]] virtual std::string GetAIOPrefix() const = 0;
++    [[nodiscard]] virtual std::string GetAIOClientScriptPath() const = 0;
++    virtual void ForceReloadPlayerAddons(const AccountTypes type = SEC_PLAYER) = 0;
++    virtual void ForceResetPlayerAddons(const AccountTypes type = SEC_PLAYER) = 0;
++    virtual void AIOMessageAll(const AIOMsg& msg, const AccountTypes type = SEC_PLAYER) = 0;
++    virtual void SendAllSimpleAIOMessage(const std::string& message, const AccountTypes type = SEC_PLAYER) = 0;
++    [[nodiscard]] virtual bool ReloadAddons() = 0;
++    virtual bool AddAddon(const AIOAddon& addon) = 0;
++    [[nodiscard]] virtual bool RemoveAddon(const std::string& addonName) = 0;
++    [[nodiscard]] virtual size_t PrepareClientAddons(const LuaVal& clientData, LuaVal& addonsTable, LuaVal& cacheTable, Player* forPlayer) const = 0;
+ };
+ 
+ #endif //AZEROTHCORE_IWORLD_H
+diff --git a/src/server/game/World/World.cpp b/src/server/game/World/World.cpp
+index 8310e9506..56aa4cb58 100644
+--- a/src/server/game/World/World.cpp
++++ b/src/server/game/World/World.cpp
+@@ -93,8 +93,11 @@
+ #include "WhoListCacheMgr.h"
+ #include "WorldPacket.h"
+ #include "WorldSession.h"
++
+ #include <boost/asio/ip/address.hpp>
+ #include <cmath>
++#include <fstream>
++#include <boost/crc.hpp>
+ 
+ namespace
+ {
+@@ -1402,6 +1405,15 @@ void World::LoadConfigSettings(bool reload)
+     m_bool_configs[CONFIG_CALCULATE_CREATURE_ZONE_AREA_DATA]   = sConfigMgr->GetOption<bool>("Calculate.Creature.Zone.Area.Data", false);
+     m_bool_configs[CONFIG_CALCULATE_GAMEOBJECT_ZONE_AREA_DATA] = sConfigMgr->GetOption<bool>("Calculate.Gameoject.Zone.Area.Data", false);
+ 
++    // AIO Configs
++    m_int_configs[CONFIG_AIO_MAXPARTS] = sConfigMgr->GetIntDefault("AIO.MaxParts", 4);
++    m_bool_configs[CONFIG_AIO_OBFUSCATE] = sConfigMgr->GetBoolDefault("AIO.Obfuscate", false);
++    m_bool_configs[CONFIG_AIO_COMPRESS] = sConfigMgr->GetBoolDefault("AIO.Compress", false);
++    m_aioclientpath = sConfigMgr->GetStringDefault("AIO.ClientScriptPath", "lua_client_scripts");
++    m_aioprefix = sConfigMgr->GetStringDefault("AIO.Prefix", "AIO");
++    if (m_aioprefix.size() > 15)
++        m_aioprefix = m_aioprefix.substr(0, 15);
++
+     // Player can join LFG anywhere
+     m_bool_configs[CONFIG_LFG_LOCATION_ALL] = sConfigMgr->GetOption<bool>("LFG.Location.All", false);
+ 
+@@ -3395,3 +3407,186 @@ CliCommandHolder::~CliCommandHolder()
+ {
+     free(m_command);
+ }
++
++bool World::AddAddon(const AIOAddon& addon)
++{
++    if (addon.file.empty())
++        return false;
++
++    //Check if addon already exist
++    for (AddonCodeListType::iterator itr = m_AddonList.begin();
++        itr != m_AddonList.end();
++        ++itr)
++    {
++        if (itr->name == addon.name)
++        {
++            return false;
++        }
++    }
++
++    AIOAddon copy(addon);
++    copy.code = "";
++
++    //Format path
++    std::string path;
++    path = sWorld->GetAIOClientScriptPath();
++    if (path.back() != '/' && path.back() != '\\')
++    {
++        path += '/';
++    }
++    path += copy.file;
++
++    //Get file
++    std::ifstream in(path, std::ios::in | std::ios::binary);
++    if (in)
++    {
++        in.seekg(0, std::ios::end);
++        copy.code.resize(in.tellg());
++        in.seekg(0, std::ios::beg);
++        in.read(&copy.code[0], copy.code.size());
++        in.close();
++        if (copy.code.empty())
++        {
++            return false;
++        }
++    }
++    else
++    {
++        sLog->outAIOMessage(0, LOG_LEVEL_ERROR, "AIO AddAddon: Couldn't open file %s of addon %s", path.c_str(), copy.name.c_str());
++        return false;
++    }
++
++    //Set crc on original file content
++    boost::crc_32_type crc_result;
++    crc_result.process_bytes(copy.code.data(), copy.code.length());
++    copy.crc = crc_result.checksum();
++
++    //Process code
++    char compressPrefix = 'U';
++    if (sWorld->getBoolConfig(CONFIG_AIO_OBFUSCATE))
++    {
++        // NYI
++    }
++    if (sWorld->getBoolConfig(CONFIG_AIO_COMPRESS))
++    {
++        // NYI
++        //compressPrefix = 'C';
++    }
++
++    //Set final code and go
++    copy.code = std::string(1, compressPrefix) + copy.code;
++    m_AddonList.push_back(copy);
++
++    sLog->outAIOMessage(0, LOG_LEVEL_INFO, "AIO: Loaded addon %s from file %s", copy.name.c_str(), copy.file.c_str());
++    return true;
++}
++
++bool World::RemoveAddon(const std::string& addonName)
++{
++    for (AddonCodeListType::iterator itr = m_AddonList.begin();
++        itr != m_AddonList.end();
++        ++itr)
++    {
++        if (itr->name == addonName)
++        {
++            uint32 sec = itr->accountType;
++            m_AddonList.erase(itr);
++            return true;
++        }
++    }
++    return false;
++}
++
++bool World::ReloadAddons()
++{
++    sLog->outAIOMessage(0, LOG_LEVEL_INFO, "World::ReloadAddons()");
++
++    AddonCodeListType prevAddonList;
++    prevAddonList.swap(m_AddonList);
++    try
++    {
++        for (AddonCodeListType::const_iterator itr = prevAddonList.begin();
++            itr != prevAddonList.end();
++            ++itr)
++        {
++            AddAddon(*itr);
++        }
++    }
++    catch (std::exception& e)
++    {
++        sLog->outAIOMessage(0, LOG_LEVEL_ERROR, "AIO: Error reloading addons. Exception: %s", e.what());
++        m_AddonList.swap(prevAddonList);
++        return false;
++    }
++    catch (...)
++    {
++        sLog->outAIOMessage(0, LOG_LEVEL_ERROR, "AIO: Error reloading addons");
++        m_AddonList.swap(prevAddonList);
++        return false;
++    }
++    return true;
++}
++
++size_t World::PrepareClientAddons(const LuaVal& clientData, LuaVal& addonsTable, LuaVal& cacheTable, Player* forPlayer) const
++{
++    uint32 i = 0;
++    for (AddonCodeListType::const_iterator itr = m_AddonList.begin();
++        itr != m_AddonList.end();
++        ++itr)
++    {
++        if (forPlayer->GetSession()->GetSecurity() < itr->accountType)
++            continue;
++
++        const LuaVal& CRCVal = clientData[itr->name];
++        if (CRCVal == itr->crc)
++        {
++            cacheTable[++i] = itr->name;
++        }
++        else
++        {
++            LuaVal addonData(TTABLE);
++            addonData["name"] = itr->name;
++            addonData["crc"] = itr->crc;
++            addonData["code"] = itr->code;
++            addonsTable[++i] = addonData;
++        }
++    }
++    return i;
++}
++
++void World::ForceReloadPlayerAddons(const AccountTypes type)
++{
++    for (SessionMap::const_iterator itr = m_sessions.begin(); itr != m_sessions.end(); ++itr)
++    {
++        if (itr->second->GetPlayer() && itr->second->GetSecurity() >= type)
++            itr->second->GetPlayer()->ForceReloadAddons();
++    }
++}
++
++void World::ForceResetPlayerAddons(const AccountTypes type)
++{
++    for (SessionMap::const_iterator itr = m_sessions.begin(); itr != m_sessions.end(); ++itr)
++    {
++        if (itr->second->GetPlayer() && itr->second->GetSecurity() >= type)
++            itr->second->GetPlayer()->ForceResetAddons();
++    }
++}
++
++void World::AIOMessageAll(const AIOMsg& msg, const AccountTypes type)
++{
++    std::string messageStr = msg.dumps();
++    for (SessionMap::const_iterator itr = m_sessions.begin(); itr != m_sessions.end(); ++itr)
++    {
++        if (itr->second->GetPlayer() && itr->second->GetSecurity() >= type)
++            itr->second->GetPlayer()->SendSimpleAIOMessage(messageStr);
++    }
++}
++
++void World::SendAllSimpleAIOMessage(const std::string& message, const AccountTypes type)
++{
++    for (SessionMap::const_iterator itr = m_sessions.begin(); itr != m_sessions.end(); ++itr)
++    {
++        if (itr->second->GetPlayer() && itr->second->GetSecurity() >= type)
++            itr->second->GetPlayer()->SendSimpleAIOMessage(message);
++    }
++}
+diff --git a/src/server/game/World/World.h b/src/server/game/World/World.h
+index 7e7380d56..827520d46 100644
+--- a/src/server/game/World/World.h
++++ b/src/server/game/World/World.h
+@@ -34,11 +34,16 @@
+ #include <set>
+ #include <unordered_map>
+ 
++#define AIO_VERSION 1.72
++
+ class Object;
+ class WorldPacket;
+ class WorldSocket;
+ class SystemMgr;
+ 
++class LuaVal;
++class AIOMsg;
++
+ struct Realm;
+ 
+ AC_GAME_API extern Realm realm;
+@@ -354,6 +359,60 @@ public:
+ 
+     void RemoveOldCorpses() override;
+ 
++    // AIO prefix configured in worldserver.conf
++    [[nodiscard]] std::string GetAIOPrefix() const override { return m_aioprefix; }
++
++    // AIO client LUA files path configured in worldserver.conf
++    [[nodiscard]] std::string GetAIOClientScriptPath() const override { return m_aioclientpath; }
++
++    // Forces reload on all player AIO addons
++    // Syncs player AIO addons with server
++    void ForceReloadPlayerAddons(const AccountTypes type = SEC_PLAYER) override;
++
++    // Forces reset on all player AIO addons
++    // Player AIO addons and addon data is deleted and downloaded again
++    void ForceResetPlayerAddons(const AccountTypes type = SEC_PLAYER) override;
++
++    // Sends an AIO message to all players
++    // See: class AIOMsg
++    void AIOMessageAll(const AIOMsg& msg, const AccountTypes type = SEC_PLAYER) override;
++
++    // Sends a simple string message to all players
++
++    // AIO can only understand smallfolk LuaVal::dumps() format
++    // Handler functions are called by creating a table as below
++    // {
++    //     {n, ScriptName, HandlerName(optional), Arg1..N(optional) },
++    //     {n, AnotherScriptName, AnotherHandlerName(optional), Arg1..N(optional) }
++    // }
++    // Where n is number of arguments including handler name as a argument
++    void SendAllSimpleAIOMessage(const std::string& message, const AccountTypes type = SEC_PLAYER) override;
++
++    // Reloads client side AIO addon files and force reloads
++    // all player AIO addons
++    // Returns true if successful, false if an error occurred
++    [[nodiscard]] bool ReloadAddons() override;
++
++    // Adds a WoW AIO addon file to the list of addons with a unique
++    // addon name to send on AIO client initialization.
++    // Returns true if addon was added, false if addon name is already taken
++    //
++    // It is required to call World::ForceReloadPlayerAddons()
++    // if addons are added after server is fully initialized
++    // for online players to load the added addons.
++    bool AddAddon(const AIOAddon& addon) override;
++
++    // Removes an addon from addon list and force reloads affected players
++    // Returns permission id if an addon was removed, 0 if addon not found
++    //
++    // It is required to call World::ForceReloadPlayerAddons()
++    // if addons are added after server is fully initialized
++    // for online players to load the added addons.
++    [[nodiscard]] bool RemoveAddon(const std::string& addonName) override;
++
++    // For internal use only
++    [[nodiscard]] size_t PrepareClientAddons(const LuaVal& clientData, LuaVal& addonsTable, LuaVal& cacheTable, Player* forPlayer) const override;
++
+ protected:
+     void _UpdateGameTime();
+     // callback for UpdateRealmCharacters
+@@ -452,6 +511,13 @@ private:
+      * @param session The World Session that we are finalizing.
+      */
+     inline void FinalizePlayerWorldSession(WorldSession* session);
++
++    typedef std::list<AIOAddon> AddonCodeListType;
++    AddonCodeListType m_AddonList;
++    std::string m_aioprefix;
++    std::string m_aioclientpath;
++
++    friend class AIOScript;
+ };
+ 
+ std::unique_ptr<IWorld>& getWorldInstance();
+diff --git a/src/server/scripts/AIO/CMakeLists.txt b/src/server/scripts/AIO/CMakeLists.txt
+new file mode 100644
+index 000000000..7784c55c2
+--- /dev/null
++++ b/src/server/scripts/AIO/CMakeLists.txt
+@@ -0,0 +1,18 @@
++# Copyright (C) 2008-2013 TrinityCore <http://www.trinitycore.org/>
++#
++# This file is free software; as a special exception the author gives
++# unlimited permission to copy and/or distribute it, with or without
++# modifications, as long as this notice is preserved.
++#
++# This program is distributed in the hope that it will be useful, but
++# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
++# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
++
++file(GLOB_RECURSE sources_AIO *.cpp *.h)
++
++set(scripts_STAT_SRCS
++  ${scripts_STAT_SRCS}
++  ${sources_AIO}
++)
++
++message("  -> Prepared: AIO Scripts")
+\ No newline at end of file
+diff --git a/src/server/scripts/AIO/ExampleAIOScript.cpp b/src/server/scripts/AIO/ExampleAIOScript.cpp
+new file mode 100644
+index 000000000..328f419a8
+--- /dev/null
++++ b/src/server/scripts/AIO/ExampleAIOScript.cpp
+@@ -0,0 +1,30 @@
++#include "ScriptMgr.h"
++#include "World.h"
++
++class ExampleAIOScript : public AIOScript
++{
++public:
++    ExampleAIOScript()
++        : AIOScript("AIOExample")
++    {
++        using namespace std::placeholders;
++        AddHandler("Print", std::bind(&ExampleAIOScript::HandlePrint, this, _1, _2));
++    }
++
++    void HandlePrint(Player* sender, const LuaVal& args)
++    {
++        const LuaVal& ButtonName  = args[4];
++        const LuaVal& InputValue  = args[5];
++        const LuaVal& SliderValue = args[6];
++
++        printf("ButtonFunctionName: %s\nInputValue: %s\nSliderValue: %f\n",
++            ButtonName.str().c_str(),
++            InputValue.str().c_str(),
++            SliderValue.num());
++    }
++};
++
++void AddSC_ExampleAIO()
++{
++    new ExampleAIOScript;
++}
+diff --git a/src/server/scripts/AIO/aio_script_loader.cpp b/src/server/scripts/AIO/aio_script_loader.cpp
+new file mode 100644
+index 000000000..2acbc16e7
+--- /dev/null
++++ b/src/server/scripts/AIO/aio_script_loader.cpp
+@@ -0,0 +1,28 @@
++/*
++ * This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
++ *
++ * This program is free software; you can redistribute it and/or modify it
++ * under the terms of the GNU Affero General Public License as published by the
++ * Free Software Foundation; either version 3 of the License, or (at your
++ * option) any later version.
++ *
++ * This program is distributed in the hope that it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for
++ * more details.
++ *
++ * You should have received a copy of the GNU General Public License along
++ * with this program. If not, see <http://www.gnu.org/licenses/>.
++ */
++
++// This is where AIO scripts' loading functions should be declared:
++// void MyExampleScript()
++void AddSC_ExampleAIO();
++
++// The name of this function should match:
++// void Add${NameOfDirectory}Scripts()
++void AddAIOScripts()
++{
++    // MyExampleScript()
++    AddSC_ExampleAIO();
++}
+diff --git a/src/server/scripts/Commands/cs_caio.cpp b/src/server/scripts/Commands/cs_caio.cpp
+new file mode 100644
+index 000000000..8c9cbf594
+--- /dev/null
++++ b/src/server/scripts/Commands/cs_caio.cpp
+@@ -0,0 +1,246 @@
++/* ScriptData
++Name: caio_commandscript
++%Complete : 100
++Comment : All AIO related server side commands
++Category : commandscripts
++EndScriptData */
++
++#include "Player.h"
++#include "ScriptMgr.h"
++#include "World.h"
++#include "Language.h"
++
++using namespace Acore::ChatCommands;
++
++class caio_commandscript : public CommandScript
++{
++public:
++    caio_commandscript()
++        : CommandScript("caio_commandscript")
++    {}
++
++    ChatCommandTable GetCommands() const override
++    {
++        static ChatCommandTable caioCommandTable =
++        {
++            { "version",        HandleVersionCommand,      SEC_GAMEMASTER, Console::No },
++            { "send",           HandleSendCommand,         SEC_GAMEMASTER, Console::No },
++            { "forcereload",    HandleReloadCommand,       SEC_GAMEMASTER, Console::No },
++            { "forcereset",     HandleResetCommand,        SEC_GAMEMASTER, Console::No },
++            { "sendall",        HandleSendAllCommand,      SEC_GAMEMASTER, Console::No },
++            { "forcereloadall", HandleReloadAllCommand,    SEC_GAMEMASTER, Console::No },
++            { "forceresetall",  HandleResetAllCommand,     SEC_GAMEMASTER, Console::No },
++            { "reloadaddons",   HandleReloadAddonsCommand, SEC_GAMEMASTER, Console::No },
++            { "addaddon",       HandleAddAddonCommand,     SEC_GAMEMASTER, Console::No },
++            { "removeaddon",    HandleRemoveAddonCommand,  SEC_GAMEMASTER, Console::No }
++        };
++        static ChatCommandTable commandTable =
++        {
++            { "caio", caioCommandTable }
++        };
++        return commandTable;
++    }
++
++    static bool HandleVersionCommand(ChatHandler* handler, char const* args)
++    {
++        handler->PSendSysMessage("AIO version %u.", AIO_VERSION);
++        return true;
++    }
++
++    static bool HandleSendCommand(ChatHandler* handler, char const* args)
++    {
++        //Player name
++        Player* target;
++        if (!handler->extractPlayerTarget((char*)args, &target))
++            return false;
++
++        //Quoted message
++        char* tailStr = strtok(NULL, "");
++        if (!tailStr)
++            return false;
++
++        char* msg = handler->extractQuotedArg(tailStr);
++        if (!msg)
++            return false;
++
++        target->SendSimpleAIOMessage(msg);
++        handler->PSendSysMessage(LANG_SENDMESSAGE, target->GetName().c_str(), msg);
++        return true;
++    };
++
++    static bool HandleReloadCommand(ChatHandler* handler, char const* args)
++    {
++        Player* target = 0;
++        if (!handler->extractPlayerTarget((char*)args, &target, 0, 0))
++            return false;
++
++        target->ForceReloadAddons();
++        handler->PSendSysMessage(LANG_CAIO_FORCERELOAD_SENT, target->GetName().c_str());
++        return true;
++    };
++
++    static bool HandleResetCommand(ChatHandler* handler, char const* args)
++    {
++        Player* target = 0;
++        if (!handler->extractPlayerTarget((char*)args, &target, 0, 0))
++            return false;
++
++        target->ForceResetAddons();
++        handler->PSendSysMessage(LANG_CAIO_FORCERESET_SENT, target->GetName().c_str());
++        return true;
++    };
++
++    static bool HandleSendAllCommand(ChatHandler* handler, char const* args)
++    {
++        if (!*args)
++            return false;
++
++        //Get message
++        char* msg = handler->extractQuotedArg((char*)args);
++        if (!msg)
++            return false;
++
++        char* permission = strtok(NULL, "");
++        uint32 perm = 195;
++        if (permission) //Get permission if its there
++        {
++            try
++            {
++                perm = std::stoi(args);
++            }
++            catch (std::exception&)
++            {
++                return false;
++            }
++        }
++
++        sWorld->SendAllSimpleAIOMessage(msg);
++        handler->PSendSysMessage(LANG_SENDMESSAGE, "all players", msg);
++        return true;
++    };
++
++    static bool HandleReloadAllCommand(ChatHandler* handler, char const* args)
++    {
++        uint32 perm = 195;
++        if (args && *args) //Get permission if its there
++        {
++            try
++            {
++                perm = std::stoi(args);
++            }
++            catch (std::exception&)
++            {
++                return false;
++            }
++        }
++
++        //Force reload required players
++        sWorld->ForceReloadPlayerAddons();
++        handler->PSendSysMessage(LANG_CAIO_FORCERELOAD_SENT, "all players");
++        return true;
++    };
++
++    static bool HandleResetAllCommand(ChatHandler* handler, char const* args)
++    {
++        uint32 perm = 195;
++        if (args && *args) //Get permission if its there
++        {
++            try
++            {
++                perm = std::stoi(args);
++            }
++            catch (std::exception&)
++            {
++                return false;
++            }
++        }
++
++        //Force reset required players
++        sWorld->ForceResetPlayerAddons();
++        handler->PSendSysMessage(LANG_CAIO_FORCERESET_SENT, "all players");
++        return true;
++    };
++
++    static bool HandleReloadAddonsCommand(ChatHandler* handler, char const* args)
++    {
++
++        //Reload and force reload required players
++        bool success = sWorld->ReloadAddons();
++        if (success)
++        {
++            sWorld->ForceReloadPlayerAddons();
++        }
++        else
++        {
++            handler->SendSysMessage(LANG_CAIO_RELOADADDONS_ERROR);
++        }
++        return true;
++    }
++
++    static bool HandleAddAddonCommand(ChatHandler* handler, char const* args)
++    {
++        if (!*args)
++            return false;
++
++        //Addon name
++        char* addonName = strtok((char*)args, " ");
++        if (!addonName || addonName[0] == '"')
++            return false;
++
++        //File
++        char* tailStr = strtok(NULL, "");
++        char* addonFile = handler->extractQuotedArg(tailStr);
++        if (!addonFile)
++            return false;
++
++        //Permission
++        char* permission = strtok(NULL, "");
++        uint32 perm = 195;
++        if (permission)
++        {
++            try
++            {
++                perm = std::stoi(permission);
++            }
++            catch (std::exception&)
++            {
++                return false;
++            }
++        }
++
++        //Add
++        AIOAddon newAddon(addonName, addonFile);
++        bool added = sWorld->AddAddon(newAddon);
++        if (added)
++        {
++            sWorld->ForceReloadPlayerAddons();
++        }
++        else
++        {
++            handler->PSendSysMessage(LANG_CAIO_ADDADDON_ERROR, addonName);
++        }
++        return true;
++    }
++
++    static bool HandleRemoveAddonCommand(ChatHandler* handler, char const* args)
++    {
++        if (!*args)
++            return false;
++
++        //Remove and reload required players
++        if (sWorld->RemoveAddon(args))
++        {
++            sWorld->ForceReloadPlayerAddons();
++        }
++        else
++        {
++            handler->PSendSysMessage(LANG_CAIO_REMOVEADDON_ERROR, args);
++        }
++        return true;
++    }
++};
++
++void AddSC_caio_commandscript()
++{
++    new caio_commandscript();
++}
+diff --git a/src/server/scripts/Commands/cs_script_loader.cpp b/src/server/scripts/Commands/cs_script_loader.cpp
+index 4c7433b6b..59dd9b845 100644
+--- a/src/server/scripts/Commands/cs_script_loader.cpp
++++ b/src/server/scripts/Commands/cs_script_loader.cpp
+@@ -62,6 +62,7 @@ void AddSC_wp_commandscript();
+ void AddSC_cache_commandscript();
+ void AddSC_item_commandscript();
+ void AddSC_player_settings_commandscript();
++void AddSC_caio_commandscript();
+ 
+ // The name of this function should match:
+ // void Add${NameOfDirectory}Scripts()
+@@ -113,4 +114,5 @@ void AddCommandsScripts()
+     AddSC_cache_commandscript();
+     AddSC_item_commandscript();
+     AddSC_player_settings_commandscript();
++    AddSC_caio_commandscript();
+ }
+diff --git a/src/server/scripts/Custom/custom_script_loader.cpp b/src/server/scripts/Custom/custom_script_loader.cpp
+index be48c89cb..b374106f5 100644
+--- a/src/server/scripts/Custom/custom_script_loader.cpp
++++ b/src/server/scripts/Custom/custom_script_loader.cpp
+@@ -24,3 +24,12 @@ void AddCustomScripts()
+ {
+     // MyExampleScript()
+ }
++
++/* This is where AIO scripts' loading functions should be declared. */
++void AddSC_ExampleAIO();
++
++void AddAIOScripts()
++{
++    /* This is where AIO scripts should be added. */
++    AddSC_ExampleAIO();
++}
