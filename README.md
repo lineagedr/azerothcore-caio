@@ -11,7 +11,9 @@ AIO Version 1.72
 
 ## Install
 
-+ Clone this repository/branch or merge with your own AzerothCore 3.3.5 branch
++ Clone this repository/branch of AzerothCore master branch https://github.com/lineagedr/azerothcore-wotlk/commit/b89eea668a28f608b71cc4289bc2d76b237fe294
++ Download ac_caio.patch and place it in your AzerothCore installation folder.
++ Run git bash and type "git apply ac_caio.patch"
 + Build/Install AzerothCore
 + [Install(Add) (C)AIO scripts](#api-reference)
 + Run SQL files from `AzerothCore_Installation_Dir/data/sql/custom/db_world/caio_world.sql` to insert commands, and strings 
